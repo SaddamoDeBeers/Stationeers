@@ -28,10 +28,9 @@
       <Recipe>
 	  	<Time>1</Time>
 		<Energy>500</Energy>
-		<Steel>50</Steel>
-		<Iron>50</Iron>
-		<Copper>2</Copper>
-        <Uranium>10</Uranium>
+		<Steel>200</Steel>
+		<Iron>250</Iron>
+		<Copper>150</Copper>
       </Recipe>	  
     </RecipeData>
 	<RecipeData>
