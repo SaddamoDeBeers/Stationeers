@@ -18,9 +18,20 @@
 	<RecipeData>
       <PrefabName>ItemEggCarton</PrefabName>
       <Recipe>
-	  	<Time>10</Time>
+	  	<Time>1</Time>
 		<Energy>100</Energy>
         <Egg>6</Egg>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemRTG</PrefabName>
+      <Recipe>
+	  	<Time>1</Time>
+		<Energy>500</Energy>
+		<Steel>50</Steel>
+		<Iron>50</Iron>
+		<Copper>2</Copper>
+        <Uran>10</Uran>
       </Recipe>	  
     </RecipeData>
 	<RecipeData>
