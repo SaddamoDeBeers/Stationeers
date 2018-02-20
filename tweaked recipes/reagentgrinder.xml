@@ -6,6 +6,10 @@
       <OutputPrefab>ItemFlour</OutputPrefab>
     </ProcessingData>
 	<ProcessingData>
+      <InputPrefab>ItemCorn</InputPrefab>
+      <OutputPrefab>ItemFlour</OutputPrefab>
+    </ProcessingData>
+	<ProcessingData>
       <InputPrefab>ItemSoybean</InputPrefab>
       <OutputPrefab>ItemMilk</OutputPrefab>
     </ProcessingData>
