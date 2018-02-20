@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HydraulicPipeBenderRecipes>
+
+	<RecipeData>
+      <PrefabName>DynamicGasCanisterEmpty</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>1000</Energy>
+        <Iron>20</Iron>
+		<Gold>0</Gold>
+		<Carbon>0</Carbon>
+		<Copper>0</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>DynamicAirConditioner</PrefabName>
+      <Recipe>
+	  	<Time>60</Time>
+		<Energy>1000</Energy>
+        <Iron>10</Iron>
+		<Gold>2</Gold>
+		<Carbon>0</Carbon>
+		<Copper>5</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>DynamicGenerator</PrefabName>
+      <Recipe>
+	  	<Time>60</Time>
+		<Energy>1000</Energy>
+        <Iron>10</Iron>
+		<Gold>2</Gold>
+		<Carbon>0</Carbon>
+		<Copper>5</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>DynamicScrubber</PrefabName>
+      <Recipe>
+	  	<Time>60</Time>
+		<Energy>1000</Energy>
+        <Iron>10</Iron>
+		<Gold>2</Gold>
+		<Carbon>0</Carbon>
+		<Copper>5</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>DynamicLight</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Carbon>0</Carbon>
+		<Copper>2</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+
+<!--	
+	<RecipeData>
+      <PrefabName>ItemGrenade</PrefabName>
+      <Recipe>
+	  	<Time>1</Time>
+		<Energy>10</Energy>
+        <Iron>1</Iron>
+		<Copper>1</Copper>
+		<Gold>1</Gold>
+		<Silver>1</Silver>
+		<Lead>1</Lead>
+		<Nickel>1</Nickel>
+		<Steel>1</Steel>
+		<Solder>1</Solder>
+		<Electrum>1</Electrum>
+		<Invar>1</Invar>
+		<Constantan>1</Constantan>
+		<Carbon>1</Carbon>		      
+		<Hydrocarbon>1</Hydrocarbon>
+		<Uranium>1</Uranium> 
+      </Recipe>	  
+    </RecipeData>	
+-->	
+  </HydraulicPipeBenderRecipes>
+</GameData>
+<!--
+
+	<RecipeData>
+      <PrefabName>Item</PrefabName>
+      <Recipe>
+	  	<Time>1</Time>
+		<Energy>10</Energy>
+        <Iron>0</Iron>
+		<Copper>0</Copper>
+		<Gold>0</Gold>
+		<Silver>0</Silver>
+		<Lead>0</Lead>
+		<Nickel>0</Nickel>
+		<Steel>0</Steel>
+		<Solder>0</Solder>
+		<Electrum>0</Electrum>
+		<Invar>0</Invar>
+		<Constantan>0</Constantan>
+		<Carbon>0</Carbon>		      
+		<Hydrocarbon>0</Hydrocarbon>
+		<Uranium>0</Uranium> 
+      </Recipe>	  
+    </RecipeData>	
+
+
+
+ApplianceMicrowave
+ApplianceReagentProcessor
+CartridgeAtmosAnalyser
+CartridgeMedicalAnalyser
+CartridgeNetworkAnalyser
+CircuitboardAirControl
+CircuitboardAirlockControl
+CircuitboardCameraDisplay
+CircuitboardDoorControl
+CircuitboardGasDisplay
+CircuitboardModeControl
+CircuitboardPowerControl
+CircuitboardShipDisplay
+CircuitboardSolarControl
+DynamicAirConditioner
+DynamicCrate
+DynamicCrateBuildingSupplies
+DynamicCrateCableSupplies
+DynamicCrateConveyorSupplies
+DynamicCratePipeSupplies
+DynamicGasCanisterAir
+DynamicGasCanisterCarbonDioxide
+DynamicGasCanisterEmpty
+DynamicGasCanisterFuel
+DynamicGasCanisterNitrogen
+DynamicGasCanisterOxygen
+DynamicGasCanisterPropane
+DynamicGasCanisterWater
+DynamicGenerator
+DynamicLight
+DynamicScrubber
+EffectSplatEgg
+GasTankAir
+ItemActiveVent
+ItemAreaPowerControl
+ItemBatteryCell
+ItemBatteryCellLarge
+ItemBatteryCellNuclear
+ItemBatteryCharger
+ItemBook
+ItemCableCoil
+ItemCableCoilHeavy
+ItemCableFuse
+ItemChemLightBlue
+ItemChemLightGreen
+ItemChemLightRed
+ItemChemLightWhite
+ItemChemLightYellow
+ItemCoalOre
+ItemCompositeFloorGrating
+ItemCopperIngot
+ItemCopperOre
+ItemCrowbar
+ItemDataDisk
+ItemDrill
+ItemDuctTape
+ItemEggCarton
+ItemEvaSuit
+ItemFireExtinguisher
+ItemFlashingLight
+ItemFlour
+ItemGasCanisterCarbonDioxide
+ItemGasCanisterChlorine
+ItemGasCanisterEmpty
+ItemGasCanisterFuel
+ItemGasCanisterHydrogen
+ItemGasCanisterNitrogen
+ItemGasCanisterOxygen
+ItemGasCanisterWater
+ItemGasFilterCarbonDioxide
+ItemGasFilterChlorine
+ItemGasFilterNitrogen
+ItemGasFilterOxygen
+ItemGasFilterPropane
+ItemGasFilterWater
+ItemGasSensor
+ItemGasTankStorage
+ItemGlassSheets
+ItemGoldIngot
+ItemGoldOre
+ItemGrenade
+ItemHat
+ItemHydroponicTray
+ItemIce
+ItemIgniter
+ItemInsulation
+ItemIronIngot
+ItemIronOre
+ItemKitAirlock
+ItemKitAtmospherics
+ItemKitBattery
+ItemKitCentrifuge
+ItemKitChute
+ItemKitComputer
+ItemKitConsole
+ItemKitConveyor
+ItemKitCryoTube
+ItemKitEngine
+ItemKitFabricator
+ItemKitFurnace
+ItemKitFurniture
+ItemKitGenerator
+ItemKitGyroscope
+ItemKitRegulator
+ItemKitSensor
+ItemKitSleeper
+ItemKitSolarPanel
+ItemKitStairs
+ItemKitStellarAnchor
+ItemKitStorage
+ItemKitTank
+ItemKitTorpedoTube
+ItemKitTransformer
+ItemKitTurret
+ItemKitWall
+ItemLabeller
+ItemLightSword
+ItemMilk
+ItemMiningBelt
+ItemMiningDrill
+ItemMuffin
+ItemPassiveVent
+ItemPickaxe
+ItemPillHeal
+ItemPillStun
+ItemPipeAnalyizer
+ItemPipeCorner
+ItemPipeCrossJunction
+ItemPipeCrossJunction3
+ItemPipeCrossJunction5
+ItemPipeCrossJunction6
+ItemPipeDigitalValve
+ItemPipeGasMixer
+ItemPipeLabel
+ItemPipeMeter
+ItemPipeRadiator
+ItemPipeStraight
+ItemPipeTJunction
+ItemPipeValve
+ItemPipeVolumePump
+ItemPowerConnector
+ItemReagentMix
+ItemRoadFlare
+ItemRTG
+ItemScanner
+ItemScrewdriver
+ItemSecurityCamera
+ItemSpaceCleaner
+ItemSpaceHelmet
+ItemSpacepack
+ItemSprayCanBlack
+ItemSprayCanBlue
+ItemSprayCanBrown
+ItemSprayCanGreen
+ItemSprayCanGrey
+ItemSprayCanKhaki
+ItemSprayCanOrange
+ItemSprayCanPink
+ItemSprayCanPurple
+ItemSprayCanRed
+ItemSprayCanWhite
+ItemSprayCanYellow
+ItemSteelFrames
+ItemSteelIngot
+ItemSteelSheets
+ItemSuitStorage
+ItemTablet
+ItemTankConnector
+ItemToolBelt
+ItemUraniumOre
+ItemWallCooler
+ItemWallHeater
+ItemWallLight
+ItemWasteIngot
+ItemWeldingTorch
+ItemWheat
+ItemWireCutters
+ItemWrench
+-->
+
+
+
