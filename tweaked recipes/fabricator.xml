@@ -20,17 +20,19 @@
       <Recipe>
 	  	<Time>10</Time>
 		<Energy>100</Energy>
-        <Iron>6</Iron>
+        <Silicon>2</Silicon>
       </Recipe>	  
     </RecipeData>
 	<RecipeData>
       <PrefabName>ItemRTG</PrefabName>
       <Recipe>
-	  	<Time>1</Time>
-		<Energy>500</Energy>
-		<Steel>200</Steel>
+	  	<Time>20</Time>
+		<Energy>2000</Energy>
+		<Steel>250</Steel>
 		<Iron>250</Iron>
-		<Copper>150</Copper>
+		<Copper>250</Copper>
+		<Electrum>100</Electrum>
+		<Invar>100</Invar>
       </Recipe>	  
     </RecipeData>
 	<RecipeData>
