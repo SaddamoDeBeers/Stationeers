@@ -15,5 +15,12 @@
 		<Time>10</Time>
       </Recipe>
     </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemFertilizedEgg</PrefabName>
+      <Recipe>
+		<Egg>1</Egg>
+		<Time>50</Time>
+      </Recipe>
+    </RecipeData>
   </ChemistryRecipes>
 </GameData>
