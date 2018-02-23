@@ -17,5 +17,12 @@
 		<Time>5</Time>
       </Recipe>
     </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemPotatoBaked</PrefabName>
+      <Recipe>
+		<Uranium>1</Uranium>
+		<Time>5</Time>
+      </Recipe>
+    </RecipeData>
   </MicrowaveRecipes>
 </GameData>
