@@ -12,7 +12,7 @@
 	<RecipeData>
       <PrefabName>ItemGrenade</PrefabName>
       <Recipe>
-	  	<Time>1</Time>
+	  	<Time>5</Time>
 		<Energy>500</Energy>
         <Iron>1</Iron>
 		<Copper>1</Copper>
