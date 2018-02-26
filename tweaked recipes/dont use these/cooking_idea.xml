@@ -60,11 +60,17 @@
 		<Time>5</Time>
     </Recipe>
 	<RecipeData>
+      <PrefabName>ItemBoiledEgg</PrefabName>
+      <Recipe>
+		<Egg>1</Egg>		
+		<Time>5</Time>
+    </Recipe>
+	<RecipeData>
       <PrefabName>ItemBreakfast</PrefabName>
       <Recipe>
 		<FrenchToast>1</FrenchToast>
 		<Milk>1</Milk>
-		<Egg>4</Egg>		
+		<BoiledEgg>2</BoiledEgg>		
 		<Time>5</Time>
     </Recipe>
   </MicrowaveRecipes>
