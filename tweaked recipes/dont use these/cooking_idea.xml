@@ -13,16 +13,59 @@
     <RecipeData>
       <PrefabName>ItemCerealBar</PrefabName>
       <Recipe>
-		<Flour>50</Flour>
+		<Flour>1</Flour>
 		<Time>5</Time>
       </Recipe>
     </RecipeData>
 	<RecipeData>
       <PrefabName>ItemPotatoBaked</PrefabName>
       <Recipe>
-		<Potato>50</Potato>
+		<Potato>1</Potato>
 		<Time>5</Time>
       </Recipe>
     </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemPotatoMashed</PrefabName>
+      <Recipe>
+		<Potato>1</Potato>
+		<Milk>10</Milk>
+		<Time>5</Time>
+      </Recipe>
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemBread</PrefabName>
+      <Recipe>
+		<Flour>5</Flour>
+		<Time>5</Time>
+    </Recipe>
+	<RecipeData>
+      <PrefabName>ItemButter</PrefabName>
+      <Recipe>
+		<Milk>2</Milk>
+		<Time>5</Time>
+    </Recipe>
+	<RecipeData>
+      <PrefabName>ItemButterBread</PrefabName>
+      <Recipe>
+		<Butter>1</Butter>
+		<Bread>2</Bread>
+		<Time>5</Time>
+    </Recipe>
+	<RecipeData>
+      <PrefabName>ItemFrenchToast</PrefabName>
+      <Recipe>
+		<Butter>1</Butter>
+		<Bread>2</Bread>
+		<Egg>1</Egg>		
+		<Time>5</Time>
+    </Recipe>
+	<RecipeData>
+      <PrefabName>ItemBreakfast</PrefabName>
+      <Recipe>
+		<FrenchToast>1</FrenchToast>
+		<Milk>1</Milk>
+		<Egg>4</Egg>		
+		<Time>5</Time>
+    </Recipe>
   </MicrowaveRecipes>
 </GameData>
