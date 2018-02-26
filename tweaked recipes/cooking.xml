@@ -20,7 +20,7 @@
 	<RecipeData>
       <PrefabName>ItemPotatoBaked</PrefabName>
       <Recipe>
-		<Uranium>1</Uranium>
+		<Potato>1</Potato>
 		<Time>5</Time>
       </Recipe>
     </RecipeData>
