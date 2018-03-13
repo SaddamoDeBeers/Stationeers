@@ -14,8 +14,7 @@
 		<Solder>10</Solder>
 		<Electrum>10</Electrum>
 		<Invar>10</Invar>
-		<Constantan>10</Constantan>
-		<Carbon>10</Carbon>		      
+		<Constantan>10</Constantan>		      
 		</Recipe>	  
     </RecipeData>
   	<RecipeData>
