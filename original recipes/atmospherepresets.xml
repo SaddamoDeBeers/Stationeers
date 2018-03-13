@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<AtmospherePresets>
+    <WorldAtmospherePreset>
+    <Name>None</Name>
+    <Kelvin>0</Kelvin>
+  </WorldAtmospherePreset>
+  <WorldAtmospherePreset>
+    <Name>Mars</Name>
+    <Kelvin>213.15</Kelvin>
+    <AtmosphereComposition>
+      <SpawnGas>
+        <Type>CarbonDioxide</Type>
+        <Quantity>8.656</Quantity>
+        <Name>CarbonDioxide</Name>
+      </SpawnGas>
+      <SpawnGas>
+        <Type>Nitrogen</Type>
+        <Quantity>0.27</Quantity>
+        <Name>Nitrogen</Name>
+      </SpawnGas>
+      <SpawnGas>
+        <Type>Oxygen</Type>
+        <Quantity>0.131</Quantity>
+        <Name>Oxygen</Name>
+      </SpawnGas>
+      <SpawnGas>
+        <Type>Pollutant</Type>
+        <Quantity>0.05839586</Quantity>
+        <Name>Pollutant</Name>
+      </SpawnGas>
+    </AtmosphereComposition>
+  </WorldAtmospherePreset>
+</AtmospherePresets>
+</GameData>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<WorldSettings>
+
+    <WorldSettingData>
+    <Name>Moon</Name>
+    <Description>While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.</Description>
+    <GameMode>Survival</GameMode>
+    <SkyBoxMaterialName>Starfield Skybox</SkyBoxMaterialName>
+    <SunPrefabName>MoonSun</SunPrefabName>
+    <TerrainPrefabName>TerrainMoon</TerrainPrefabName>
+    <Gravity>-9.8</Gravity>
+    <SizeOfWorld>10</SizeOfWorld>
+    <WorldOreDensity>0.001</WorldOreDensity>
+    <NumberOfCratersPerRegion>5</NumberOfCratersPerRegion>
+    <NumberOfRegions>8</NumberOfRegions>
+    <SizeOfCraterRegions>50</SizeOfCraterRegions>
+    <BedrockLevel>-40</BedrockLevel>
+    <Kelvin>0</Kelvin>
+    <TerrainGenerationFeatures>
+      <Feature>Normal</Feature>
+      <Feature>Craters</Feature>
+    </TerrainGenerationFeatures>
+  </WorldSettingData>
+
+  <WorldSettingData>
+    <Name>Mars</Name>
+    <Description>While not as red as the moniker "The Red Planet" might imply, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something...</Description>
+    <GameMode>Survival</GameMode>
+    <SkyBoxMaterialName>MarsSky</SkyBoxMaterialName>
+    <SunPrefabName>MarsSun</SunPrefabName>
+    <TerrainPrefabName>TerrainMars</TerrainPrefabName>
+    <Gravity>-9.8</Gravity>
+    <SizeOfWorld>10</SizeOfWorld>
+    <WorldOreDensity>0.001</WorldOreDensity>
+    <NumberOfCratersPerRegion>0</NumberOfCratersPerRegion>
+    <NumberOfRegions>0</NumberOfRegions>
+    <SizeOfCraterRegions>0</SizeOfCraterRegions>
+    <BedrockLevel>-40</BedrockLevel>
+    <Kelvin>213.15</Kelvin>
+    <AtmosphereComposition>
+      <SpawnGas>
+        <Type>CarbonDioxide</Type>
+        <Quantity>8.656</Quantity>
+        <Name>CarbonDioxide</Name>
+      </SpawnGas>
+      <SpawnGas>
+        <Type>Nitrogen</Type>
+        <Quantity>0.27</Quantity>
+        <Name>Nitrogen</Name>
+      </SpawnGas>
+      <SpawnGas>
+        <Type>Oxygen</Type>
+        <Quantity>0.131</Quantity>
+        <Name>Oxygen</Name>
+      </SpawnGas>
+      <SpawnGas>
+        <Type>Pollutant</Type>
+        <Quantity>0.05839586</Quantity>
+        <Name>Pollutant</Name>
+      </SpawnGas>
+    </AtmosphereComposition>
+    <TerrainGenerationFeatures>
+      <Feature>Custom</Feature>
+    </TerrainGenerationFeatures>
+    <CustomTerrainParameters>
+      <Parameter>
+        <TwoDimensions>true</TwoDimensions>
+        <Frequency>0.1</Frequency>
+        <Amplitude>2.0</Amplitude>
+      </Parameter>
+      <Parameter>
+        <TwoDimensions>true</TwoDimensions>
+        <Frequency>0.01</Frequency>
+        <Amplitude>5.0</Amplitude>
+        <Size>4</Size>
+      </Parameter>
+      <Parameter>
+        <TwoDimensions>false</TwoDimensions>
+        <Frequency>0.1</Frequency>
+        <Amplitude>1.0</Amplitude>
+        <Size>4</Size>
+      </Parameter>
+    </CustomTerrainParameters>
+  </WorldSettingData>
+
+  <WorldSettingData>
+    <Name>Space</Name>
+    <Description>While there's no gravity or atmosphere, at least there's a lot of space to build?  You'll find yourself amongst several asteroids that may contain various ores and ices you may be able to use to survive out here.</Description>
+    <GameMode>Creative</GameMode>
+    <SkyBoxMaterialName>Starfield Skybox</SkyBoxMaterialName>
+    <SunPrefabName>SpaceSun</SunPrefabName>
+    <TerrainPrefabName>TerrainSpace</TerrainPrefabName>
+    <Gravity>0</Gravity>
+    <SizeOfWorld>80</SizeOfWorld>
+    <WorldOreDensity>0.005</WorldOreDensity>
+    <NumberOfCratersPerRegion>0</NumberOfCratersPerRegion>
+    <NumberOfRegions>0</NumberOfRegions>
+    <SizeOfCraterRegions>0</SizeOfCraterRegions>
+    <BedrockLevel>-20000</BedrockLevel>
+    <Kelvin>0</Kelvin>
+    <TerrainGenerationFeatures>
+      <Feature>Asteroids</Feature>
+    </TerrainGenerationFeatures>
+  </WorldSettingData>
+
+</WorldSettings>
+</GameData>

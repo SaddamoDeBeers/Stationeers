@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<TerrainGenerationPresets>
+  <TerrainGenerationParameters>
+    <Name>Mountains</Name>
+    <CustomTerrainParameters>
+      <Parameter>
+        <TwoDimensions>true</TwoDimensions>
+        <Frequency>0.1</Frequency>
+        <Amplitude>2.0</Amplitude>
+      </Parameter>
+      <Parameter>
+        <TwoDimensions>true</TwoDimensions>
+        <Frequency>0.01</Frequency>
+        <Amplitude>5.0</Amplitude>
+        <Size>4</Size>
+      </Parameter>
+      <Parameter>
+        <TwoDimensions>false</TwoDimensions>
+        <Frequency>0.1</Frequency>
+        <Amplitude>1.0</Amplitude>
+        <Size>4</Size>
+      </Parameter>
+    </CustomTerrainParameters>
+  </TerrainGenerationParameters>
+
+  <TerrainGenerationParameters>
+    <Name>Flat</Name>
+  </TerrainGenerationParameters>
+</TerrainGenerationPresets>
+</GameData>

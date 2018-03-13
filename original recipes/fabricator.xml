@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <FabricatorRecipes>
+    <RecipeData>
+      <PrefabName>ItemRTG</PrefabName>
+      <Recipe>
+	  	<Time>50</Time>
+		<Energy>500</Energy>
+        <Iron>50</Iron>
+		<Copper>100</Copper>
+		<Gold>25</Gold>
+		<Lead>50</Lead>
+		<Steel>20</Steel>
+		<Solder>10</Solder>
+		<Electrum>10</Electrum>
+		<Invar>10</Invar>
+		<Constantan>10</Constantan>		      
+		</Recipe>	  
+    </RecipeData>
+  	<RecipeData>
+      <PrefabName>ItemEggCarton</PrefabName>
+      <Recipe>
+          <Time>10</Time>
+        <Energy>100</Energy>
+        <Silicon>2</Silicon>
+      </Recipe>
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGrenade</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>500</Energy>
+        <Iron>1</Iron>
+		<Copper>1</Copper>
+		<Lead>1</Lead>
+		<Steel>1</Steel>
+      </Recipe>	  
+    </RecipeData>
 	<RecipeData>
       <PrefabName>ApplianceChemistryStation</PrefabName>
       <Recipe>

@@ -272,13 +272,31 @@
         <CustomColor>ColorGreen</CustomColor>
         <Contents>
           <InventoryData>
-            <PrefabName>ItemFertilizedEgg</PrefabName>
+            <PrefabName>ItemEggCarton</PrefabName>
+			<Contents>
+			  <InventoryData>
+				<PrefabName>ItemFertilizedEgg</PrefabName>
+			  </InventoryData>
+			  <InventoryData>
+				<PrefabName>ItemFertilizedEgg</PrefabName>
+			  </InventoryData>
+			  <InventoryData>
+				<PrefabName>ItemFertilizedEgg</PrefabName>
+			  </InventoryData>
+			  <InventoryData>
+				<PrefabName>ItemFertilizedEgg</PrefabName>
+			  </InventoryData>
+			  <InventoryData>
+				<PrefabName>ItemFertilizedEgg</PrefabName>
+			  </InventoryData>
+			  <InventoryData>
+				<PrefabName>ItemFertilizedEgg</PrefabName>
+			  </InventoryData>
+			</Contents>
           </InventoryData>
           <InventoryData>
-            <PrefabName>ItemFertilizedEgg</PrefabName>
-          </InventoryData>
-          <InventoryData>
-            <PrefabName>ItemFertilizedEgg</PrefabName>
+            <PrefabName>ItemPotato</PrefabName>
+			<StackSize>5</StackSize>
           </InventoryData>
           <InventoryData>
             <PrefabName>ItemWheat</PrefabName>
@@ -303,6 +321,9 @@
             <PrefabName>ItemCerealBar</PrefabName>
           </InventoryData>
           <InventoryData>
+            <PrefabName>ItemCerealBar</PrefabName>
+          </InventoryData>
+		  <InventoryData>
             <PrefabName>ItemCerealBar</PrefabName>
           </InventoryData>
         </Contents>

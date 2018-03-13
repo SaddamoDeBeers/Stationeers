@@ -76,7 +76,21 @@
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
-    </RecipeData>
+  </RecipeData>
+	<RecipeData>
+      <PrefabName>CartridgeOreScanner</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>100</Energy>
+        <Iron>1</Iron>
+		<Gold>5</Gold>
+		<Carbon>0</Carbon>
+		<Copper>5</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+  </RecipeData>
 	<RecipeData>
       <PrefabName>CartridgeTracker</PrefabName>
       <Recipe>
@@ -453,16 +467,30 @@
 	<RecipeData>
       <PrefabName>ItemKitSolarPanel</PrefabName>
       <Recipe>
-	  	<Time>5</Time>
-		<Energy>10</Energy>
+	  	  <Time>5</Time>
+		    <Energy>10</Energy>
         <Iron>10</Iron>
-		<Gold>5</Gold>
-		<Carbon>0</Carbon>
-		<Copper>20</Copper>
-		<Steel>0</Steel>
-		<Uranium>0</Uranium>       
-		<Hydrocarbon>0</Hydrocarbon>
-      </Recipe>	  
+        <Gold>5</Gold>
+        <Carbon>0</Carbon>
+        <Copper>20</Copper>
+        <Steel>0</Steel>
+        <Uranium>0</Uranium>       
+        <Hydrocarbon>0</Hydrocarbon>
+      </Recipe>
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>PortableSolarPanel</PrefabName>
+      <Recipe>
+	  	  <Time>5</Time>
+		    <Energy>10</Energy>
+        <Iron>5</Iron>
+        <Gold>3</Gold>
+        <Carbon>0</Carbon>
+        <Copper>10</Copper>
+        <Steel>0</Steel>
+        <Uranium>0</Uranium>       
+        <Hydrocarbon>0</Hydrocarbon>
+      </Recipe>
     </RecipeData>
 	<RecipeData>
       <PrefabName>ItemKitTransformer</PrefabName>
@@ -624,6 +652,17 @@
 		<Steel>5</Steel>
 		<Solder>2</Solder>
       </Recipe>	  
+    </RecipeData>
+	  <RecipeData>
+      <PrefabName>DynamicGPR</PrefabName>
+      <Recipe>
+        <Time>10</Time>
+        <Energy>500</Energy>
+        <Copper>2</Copper>
+        <Gold>10</Gold>
+        <Steel>5</Steel>
+        <Solder>5</Solder>
+      </Recipe>
     </RecipeData>
   </ElectronicsPrinterRecipes>
 </GameData>

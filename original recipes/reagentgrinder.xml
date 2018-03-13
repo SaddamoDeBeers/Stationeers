@@ -5,5 +5,9 @@
       <InputPrefab>ItemWheat</InputPrefab>
       <OutputPrefab>ItemFlour</OutputPrefab>
     </ProcessingData>
+    <ProcessingData>
+      <InputPrefab>ItemSoybean</InputPrefab>
+      <OutputPrefab>ItemSoyOil</OutputPrefab>
+    </ProcessingData>
   </ReagentGrinderRecipes>
 </GameData>
