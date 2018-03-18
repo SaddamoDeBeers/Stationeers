@@ -17,11 +17,19 @@
 		<Time>5</Time>
       </Recipe>
     </RecipeData>
-	<RecipeData>
+    <RecipeData>
       <PrefabName>ItemPotatoBaked</PrefabName>
       <Recipe>
 		<Potato>1</Potato>
 		<Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    <RecipeData>
+      <PrefabName>ItemFries</PrefabName>
+      <Recipe>
+		    <Potato>1</Potato>
+		    <Oil>5</Oil>
+		    <Time>10</Time>
       </Recipe>
     </RecipeData>
   </MicrowaveRecipes>
