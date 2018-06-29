@@ -5,6 +5,14 @@
       <InputPrefab>ItemWheat</InputPrefab>
       <OutputPrefab>ItemFlour</OutputPrefab>
     </ProcessingData>
+	 <ProcessingData>
+      <InputPrefab>ItemCorn</InputPrefab>
+      <OutputPrefab>ItemFlour</OutputPrefab>
+    </ProcessingData>
+	 <ProcessingData>
+      <InputPrefab>ItemFern</InputPrefab>
+      <OutputPrefab>ItemMilk</OutputPrefab>
+    </ProcessingData>
     <ProcessingData>
       <InputPrefab>ItemSoybean</InputPrefab>
       <OutputPrefab>ItemSoyOil</OutputPrefab>
