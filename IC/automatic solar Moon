@@ -1,0 +1,5 @@
+l r0 d0 SolarAngle
+div r0 r0 1.8
+s db Setting r0
+yield
+j0
