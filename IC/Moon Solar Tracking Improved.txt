@@ -1,0 +1,8 @@
+l r0 d0 SolarAngle
+min r1 r0 15
+sub r2 r0 r1
+div r3 r2 1.5
+min r4 r3 100
+s db Setting r4
+yield
+j 0
