@@ -41,15 +41,30 @@
 		<Time>1</Time>
 		<Energy>200</Energy>
       </Recipe>
-    </RecipeData>	
+    </RecipeData>
     <RecipeData>
+      <PrefabName>ItemKitCompositeCladding</PrefabName>
+      <Recipe>
+        <Iron>1</Iron>
+		    <Time>1</Time>
+		    <Energy>200</Energy>
+      </Recipe>
+    </RecipeData>	
+	<RecipeData>
       <PrefabName>ItemKitWall</PrefabName>
       <Recipe>
-        <Iron>4</Iron>
-		<Copper>1</Copper>
-		<Time>5</Time>
+	  	<Time>5</Time>
 		<Energy>500</Energy>
-      </Recipe>
+		<Steel>1</Steel>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemKitLadder</PrefabName>
+      <Recipe>
+	  	<Time>3</Time>
+		<Energy>200</Energy>
+		<Iron>2</Iron>
+      </Recipe>	  
     </RecipeData>	
     <RecipeData>
       <PrefabName>ItemKitPipe</PrefabName>
@@ -95,6 +110,22 @@
 		<Energy>5000</Energy>
       </Recipe>
 	 </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemKitFurniture</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>500</Energy>
+        <Iron>20</Iron>
+		<Gold>0</Gold>
+		<Carbon>0</Carbon>
+		<Copper>5</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>	 
+	 
     <RecipeData>
       <PrefabName>ItemKitHydraulicPipeBender</PrefabName>
       <Recipe>
@@ -196,17 +227,11 @@
       </Recipe>
     </RecipeData>
 	<RecipeData>
-      <PrefabName>ItemCompositeFloorGrating</PrefabName>
+      <PrefabName>ItemKitCompositeFloorGrating</PrefabName>
       <Recipe>
 		<Time>3</Time>
 		<Energy>500</Energy>
         <Iron>1</Iron>
-		<Gold>0</Gold>
-		<Carbon>0</Carbon>
-		<Copper>0</Copper>
-		<Steel>0</Steel>
-		<Uranium>0</Uranium>       
-		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>
     <RecipeData>
@@ -214,7 +239,6 @@
       <Recipe>
         <Iron>20</Iron>
 		<Copper>10</Copper>
-		<Gold>0</Gold>
 		<Time>120</Time>
 		<Energy>1000</Energy>
       </Recipe>
@@ -241,367 +265,45 @@
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
-    </RecipeData>	
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemKitCrateMount</PrefabName>
+      <Recipe>
+        <Iron>10</Iron>
+		<Time>10</Time>
+		<Energy>500</Energy>
+      </Recipe>
+    </RecipeData>
+  
+    <RecipeData>
+      <PrefabName>ItemKitCrate</PrefabName>
+      <Recipe>
+        <Iron>10</Iron>
+        <Time>10</Time>
+        <Energy>200</Energy>
+      </Recipe>
+    </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemSpaceHelmet</PrefabName>
+      <Recipe>
+	  	<Time>15</Time>
+		<Energy>500</Energy>
+		<Gold>2</Gold>
+		<Copper>2</Copper>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemEvaSuit</PrefabName>
+      <Recipe>
+	  	<Time>15</Time>
+		<Energy>500</Energy>
+        <Iron>5</Iron>
+		<Copper>5</Copper>
+      </Recipe>	  
+    </RecipeData>    
+    
   </AutolatheRecipes>
 </GameData>
-
-
-
-<!--
-ApplianceChemistryStation
-ApplianceMicrowave
-ApplianceReagentProcessor
-CartridgeAtmosAnalyser
-CartridgeElectronicReader
-CartridgeMedicalAnalyser
-CartridgeNetworkAnalyser
-CartridgeTracker
-CircuitboardAirControl
-CircuitboardAirlockControl
-CircuitboardCameraDisplay
-CircuitboardDoorControl
-CircuitboardGasDisplay
-CircuitboardModeControl
-CircuitboardPowerControl
-CircuitboardShipDisplay
-CircuitboardSolarControl
-Cube
-DynamicAirConditioner
-DynamicCrate
-DynamicCrateBuildingSupplies
-DynamicCrateCableSupplies
-DynamicCrateConveyorSupplies
-DynamicCratePipeSupplies
-DynamicGasCanisterAir
-DynamicGasCanisterCarbonDioxide
-DynamicGasCanisterEmpty
-DynamicGasCanisterFuel
-DynamicGasCanisterNitrogen
-DynamicGasCanisterOxygen
-DynamicGasCanisterVolatiles
-DynamicGasCanisterWater
-DynamicGenerator
-DynamicLight
-DynamicScrubber
-EffectSplatEgg
-GasTankAir
-ItemActiveVent
-ItemAngleGrinder
-ItemAreaPowerControl
-ItemBatteryCell
-ItemBatteryCellLarge
-ItemBatteryCellNuclear
-ItemBatteryCharger
-ItemBook
-ItemCableCoil
-ItemCableCoilHeavy
-ItemCableFuse
-ItemCerealBar
-ItemChemLightBlue
-ItemChemLightGreen
-ItemChemLightRed
-ItemChemLightWhite
-ItemChemLightYellow
-ItemCoalOre
-ItemCompositeFloorGrating
-ItemConstantanIngot
-ItemCopperIngot
-ItemCopperOre
-ItemCorn
-ItemCrowbar
-ItemDataDisk
-ItemDrill
-ItemDuctTape
-ItemEggCarton
-ItemElectrumIngot
-ItemEvaSuit
-ItemFern
-ItemFertilizedEgg
-ItemFireExtinguisher
-ItemFlashingLight
-ItemFlour
-ItemGasCanisterCarbonDioxide
-ItemGasCanisterEmpty
-ItemGasCanisterFuel
-ItemGasCanisterNitrogen
-ItemGasCanisterOxygen
-ItemGasCanisterPollutants
-ItemGasCanisterVolatiles
-ItemGasCanisterWater
-ItemGasFilterCarbonDioxide
-ItemGasFilterNitrogen
-ItemGasFilterOxygen
-ItemGasFilterPollutants
-ItemGasFilterVolatiles
-ItemGasFilterWater
-ItemGasTankStorage
-ItemGlassSheets
-ItemGoldIngot
-ItemGoldOre
-ItemGrenade
-ItemHat
-ItemHydroponicTray
-ItemIce
-ItemIgniter
-ItemInsulation
-ItemInvarIngot
-ItemIronFrames
-ItemIronIngot
-ItemIronOre
-ItemIronSheets
-ItemKitAirlock
-ItemKitArcFurnace
-ItemKitAtmospherics
-ItemKitAutolathe
-ItemKitBattery
-ItemKitBlastDoor
-ItemKitCentrifuge
-ItemKitChute
-
-ItemKitConsole
-ItemKitConveyor
-ItemKitCryoTube
-ItemKitCube
-ItemKitDoor
-ItemKitElectronicsPrinter
-ItemKitEngineLarge
-ItemKitEngineMedium
-ItemKitEngineSmall
-ItemKitFabricator
-ItemKitFurnace
-ItemKitFurniture
-ItemKitGyroscope
-ItemKitLocker
-ItemKitPipe
-ItemKitRegulator
-ItemKitSensor
-ItemKitSleeper
-
-ItemKitSolidGenerator
-ItemKitStairs
-ItemKitStellarAnchor
-ItemKitSuitStorage
-ItemKitTank
-ItemKitTorpedoTube
-ItemKitTransformer
-
-ItemKitTurret
-ItemKitWall
-ItemKitWallIron
-ItemLabeller
-ItemLeadIngot
-ItemLeadOre
-ItemLightSword
-ItemMilk
-ItemMiningBelt
-ItemMiningDrill
-ItemMuffin
-ItemNickelIngot
-ItemNickelOre
-ItemOxite
-ItemPassiveVent
-ItemPickaxe
-ItemPillHeal
-ItemPillStun
-ItemPipeAnalyizer
-ItemPipeDigitalValve
-ItemPipeGasMixer
-ItemPipeLabel
-ItemPipeMeter
-ItemPipeRadiator
-ItemPipeValve
-ItemPipeVolumePump
-ItemPowerConnector
-ItemReagentMix
-ItemRoadFlare
-ItemRTG
-ItemScanner
-ItemScrewdriver
-ItemSecurityCamera
-ItemSiliconIngot
-ItemSiliconOre
-ItemSilverIngot
-ItemSilverOre
-ItemSolderIngot
-ItemSoybean
-ItemSpaceCleaner
-ItemSpaceHelmet
-ItemSpacepack
-ItemSprayCanBlack
-ItemSprayCanBlue
-ItemSprayCanBrown
-ItemSprayCanGreen
-ItemSprayCanGrey
-ItemSprayCanKhaki
-ItemSprayCanOrange
-ItemSprayCanPink
-ItemSprayCanPurple
-ItemSprayCanRed
-ItemSprayCanWhite
-ItemSprayCanYellow
-ItemSteelFrames
-ItemSteelIngot
-ItemSteelSheets
-ItemSuitStorage
-ItemTablet
-ItemTankConnector
-ItemToolBelt
-ItemUraniumOre
-ItemVolatiles
-ItemWallCooler
-ItemWallHeater
-ItemWallLight
-ItemWasteIngot
-ItemWeldingTorch
-ItemWheat
-ItemWireCutters
-ItemWrench
-
-MotherboardLogic
-MotherboardManufacturing
-MotherboardSorter
-MothershipCore
-NpcChick
-NpcChicken
-NPCDummyCharacter
-NpcGrounder
-SpawnPoint
-StructureActiveVent
-StructureAirConditioner
-StructureAirlock
-StructureArcFurnace
-StructureAreaPowerControl
-StructureAreaPowerControlReversed
-StructureAutolathe
-StructureBackPressureRegulator
-StructureBattery
-StructureBatteryCharger
-StructureBench
-StructureBlastDoor
-StructureCableCorner
-StructureCableCorner3
-StructureCableCorner3Burnt
-StructureCableCornerBurnt
-StructureCableCornerH
-StructureCableCornerHBurnt
-StructureCableFuse100k
-StructureCableFuse1k
-StructureCableFuse50k
-StructureCableFuse5k
-StructureCableJunction
-StructureCableJunction4
-StructureCableJunction4Burnt
-StructureCableJunction4HBurnt
-StructureCableJunction6
-StructureCableJunction6Burnt
-StructureCableJunction6HBurnt
-StructureCableJunctionBurnt
-StructureCableJunctionH
-StructureCableJunctionH4
-StructureCableJunctionH6
-StructureCableJunctionHBurnt
-StructureCableStraight
-StructureCableStraightBurnt
-StructureCableStraightH
-StructureCableStraightHBurnt
-StructureCamera
-StructureCentrifuge
-StructureChair
-StructureChuteBin
-StructureChuteCorner
-StructureChuteInlet
-StructureChuteJunction
-StructureChuteOutlet
-StructureChuteStraight
-StructureChuteWindow
-StructureCompositeDoor
-StructureCompositeFloorGrating
-StructureCompositeWall
-StructureCompositeWallRound
-StructureCompositeWallType1
-StructureCompositeWallType2
-StructureCompositeWallType3
-StructureCompositeWallType4
-StructureCompositeWindow
-StructureComputer
-StructureConsole
-StructureConsoleDual
-StructureConsoleMonitor
-StructureControlChair
-StructureConveyorCorner
-StructureConveyorRiser
-StructureConveyorStraight
-StructureConveyorStraightLong
-StructureConveyorStraightShort
-StructureCryoTube
-StructureDaylightSensor
-StructureDigitalValve
-StructureDiode
-StructureElectronicsPrinter
-StructureFabricator
-StructureFiltration
-StructureFlashingLight
-StructureFrame
-StructureFrameCorner
-StructureFrameIron
-StructureFrameSide
-StructureFurnace
-StructureGasMixer
-StructureGasSensor
-StructureGasTankStorage
-StructureGlassDoor
-StructureGunTurret
-StructureGyroscope
-StructureHydroponicsTray
-StructureIgniter
-StructureLocker
-StructureMotionSensor
-StructurePassiveVent
-StructurePipeAnalysizer
-StructurePipeCorner
-StructurePipeCrossJunction
-StructurePipeCrossJunction3
-StructurePipeCrossJunction5
-StructurePipeCrossJunction6
-StructurePipeLabel
-StructurePipeMeter
-StructurePipeRadiator
-StructurePipeStraight
-StructurePipeTJunction
-StructurePowerConnector
-StructurePressureRegulator
-StructureRailing
-StructureRocketEngine
-StructureRocketEngineSmall
-StructureRocketEngineTiny
-StructureRTG
-StructureSleeper
-StructureSolarPanel
-StructureSolidFuelGenerator
-StructureSorter
-StructureStacker
-StructureStairs4x2
-StructureStellarAnchor
-StructureStorageLocker
-StructureSuitStorage
-StructureTankConnector
-StructureTankSmall
-StructureTankSmallAir
-StructureTankSmallFuel
-StructureTorpedoRack
-StructureTorpedoTube
-StructureTransformer
-StructureTransformerSmall
-StructureValve
-StructureVolumePump
-StructureWallCooler
-StructureWallHeater
-StructureWallIron
-StructureWallLight
-UniformCommander
-UniformOrangeJumpSuit
-WeaponPistolEnergy
-WeaponRifleEnergy
-WeaponTorpedo
-
--->

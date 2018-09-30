@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PaintMixRecipes>
+  
+    <RecipeData>
+      <PrefabName>ItemSprayCanBlack</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <Carbon>40</Carbon>
+        <Silver>10</Silver>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanBlue</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorBlue>50</ColorBlue>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanBrown</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorRed>20</ColorRed>
+        <ColorYellow>20</ColorYellow>
+        <ColorBlue>10</ColorBlue>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanGreen</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorGreen>50</ColorGreen>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanGrey</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorRed>10</ColorRed>
+        <ColorYellow>10</ColorYellow>
+        <ColorBlue>10</ColorBlue>
+        <Silver>20</Silver>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanKhaki</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+		    <Time>5</Time>
+        <ColorGreen>30</ColorGreen>
+        <ColorRed>10</ColorRed>
+        <ColorBlue>10</ColorBlue>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanOrange</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorOrange>50</ColorOrange>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanPink</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorRed>30</ColorRed>
+        <ColorYellow>10</ColorYellow>
+        <ColorBlue>10</ColorBlue>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanPurple</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorBlue>30</ColorBlue>
+        <ColorRed>20</ColorRed>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanRed</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorRed>50</ColorRed>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanWhite</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorRed>10</ColorRed>
+        <ColorYellow>10</ColorYellow>
+        <ColorBlue>10</ColorBlue>
+        <Gold>20</Gold>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemSprayCanYellow</PrefabName>
+      <Recipe>
+        <Oil>5</Oil>
+        <ColorYellow>50</ColorYellow>
+		    <Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    
+  </PaintMixRecipes>
+</GameData>

@@ -29,6 +29,21 @@
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>  
+
+	<RecipeData>
+      <PrefabName>ItemKitSuitStorage</PrefabName>
+      <Recipe>
+	  	<Time>30</Time>
+		<Energy>500</Energy>
+        <Iron>15</Iron>
+		<Copper>5</Copper>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Lead>0</Lead>
+      </Recipe>	  
+    </RecipeData>	    
+    
+  
 	<RecipeData>
       <PrefabName>ItemGasFilterCarbonDioxide</PrefabName>
       <Recipe>
@@ -112,7 +127,202 @@
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
-    </RecipeData>	
+    </RecipeData>
+    <RecipeData>
+      <PrefabName>ItemGasFilterNitrousOxide</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Carbon>0</Carbon>
+		<Copper>0</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+    
+    
+  <RecipeData>
+      <PrefabName>ItemGasFilterCarbonDioxideM</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>2500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Copper>0</Copper>
+		<Constantan>10</Constantan>
+		<Uranium>0</Uranium>       
+		<HydroSilver>0</HydroSilver>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterPollutantsM</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>2500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Copper>0</Copper>
+		<Constantan>10</Constantan>
+		<Uranium>0</Uranium>       
+		<HydroSilver>0</HydroSilver>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterNitrogenM</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>2500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Copper>0</Copper>
+		<Constantan>10</Constantan>
+		<Uranium>0</Uranium>       
+		<HydroSilver>0</HydroSilver>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterOxygenM</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>2500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Copper>0</Copper>
+		<Constantan>10</Constantan>
+		<Uranium>0</Uranium>       
+		<HydroSilver>0</HydroSilver>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterVolatilesM</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>2500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Copper>0</Copper>
+		<Constantan>10</Constantan>
+		<Uranium>0</Uranium>       
+		<HydroSilver>0</HydroSilver>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterWaterM</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>2500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Copper>0</Copper>
+		<Constantan>10</Constantan>
+		<Uranium>0</Uranium>       
+		<HydroSilver>0</HydroSilver>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterNitrousOxideM</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>2500</Energy>
+        <Iron>5</Iron>
+		<Gold>0</Gold>
+		<Silver>5</Silver>
+		<Copper>0</Copper>
+		<Constantan>10</Constantan>
+		<Uranium>0</Uranium>       
+		<HydroSilver>0</HydroSilver>
+      </Recipe>	  
+    </RecipeData>
+    
+    
+	<RecipeData>
+      <PrefabName>ItemGasFilterCarbonDioxideL</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>4000</Energy>
+        <Steel>15</Steel>
+		<Copper>10</Copper>
+		<Electrum>10</Electrum>
+		<Uranium>0</Uranium>       
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterPollutantsL</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>4000</Energy>
+        <Steel>15</Steel>
+		<Copper>10</Copper>
+		<Electrum>10</Electrum>
+		<Uranium>0</Uranium>       
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterNitrogenL</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>4000</Energy>
+        <Steel>15</Steel>
+		<Copper>10</Copper>
+		<Electrum>10</Electrum>
+		<Uranium>0</Uranium>       
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterOxygenL</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>4000</Energy>
+        <Steel>15</Steel>
+		<Copper>10</Copper>
+		<Electrum>10</Electrum>
+		<Uranium>0</Uranium>     
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterVolatilesL</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>4000</Energy>
+        <Steel>15</Steel>
+		<Copper>10</Copper>
+		<Electrum>10</Electrum>
+		<Uranium>0</Uranium>       
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterWaterL</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>4000</Energy>
+        <Steel>15</Steel>
+		<Copper>10</Copper>
+		<Electrum>10</Electrum>
+		<Uranium>0</Uranium>       
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemGasFilterNitrousOxideL</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>4000</Energy>
+        <Steel>15</Steel>
+		<Copper>10</Copper>
+		<Electrum>10</Electrum>
+		<Uranium>0</Uranium>       
+      </Recipe>	  
+    </RecipeData>
+    
+    
 	<RecipeData>
       <PrefabName>ItemKitSensor</PrefabName>
       <Recipe>
@@ -406,215 +616,41 @@
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemDynamicAirCon</PrefabName>
+      <Recipe>
+	  	<Time>240</Time>
+		<Energy>5000</Energy>
+		<Gold>5</Gold>
+		<Silver>5</Silver>
+		<Steel>20</Steel>
+		<Solder>5</Solder>
+      </Recipe>	  
+    </RecipeData>
 
+	<RecipeData>
+      <PrefabName>ItemDynamicScrubber</PrefabName>
+      <Recipe>
+	  	<Time>240</Time>
+		<Energy>5000</Energy>
+		<Gold>5</Gold>
+		<Invar>5</Invar>
+		<Steel>20</Steel>
+		<Solder>5</Solder>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemKitDynamicHydroponics</PrefabName>
+      <Recipe>
+	  	<Time>120</Time>
+		<Energy>1000</Energy>
+		<Steel>20</Steel>
+		<Copper>5</Copper>
+		<Nickel>5</Nickel>
+      </Recipe>	  
+    </RecipeData>
 	
   </HydraulicPipeBenderRecipes>
 </GameData>
-<!--
-
-	<RecipeData>
-      <PrefabName>Item</PrefabName>
-      <Recipe>
-	  	<Time>5</Time>
-		<Energy>500</Energy>
-        <Iron>0</Iron>
-		<Copper>0</Copper>
-		<Gold>0</Gold>
-		<Silver>0</Silver>
-		<Lead>0</Lead>
-		<Nickel>0</Nickel>
-		<Steel>0</Steel>
-		<Solder>0</Solder>
-		<Electrum>0</Electrum>
-		<Invar>0</Invar>
-		<Constantan>0</Constantan>
-		<Carbon>0</Carbon>		      
-		<Hydrocarbon>0</Hydrocarbon>
-		<Uranium>0</Uranium> 
-      </Recipe>	  
-    </RecipeData>	
-
-
-
-ApplianceMicrowave
-ApplianceReagentProcessor
-CartridgeAtmosAnalyser
-CartridgeMedicalAnalyser
-CartridgeNetworkAnalyser
-CircuitboardAirControl
-CircuitboardAirlockControl
-CircuitboardCameraDisplay
-CircuitboardDoorControl
-CircuitboardGasDisplay
-CircuitboardModeControl
-CircuitboardPowerControl
-CircuitboardShipDisplay
-CircuitboardSolarControl
-DynamicAirConditioner
-DynamicCrate
-DynamicCrateBuildingSupplies
-DynamicCrateCableSupplies
-DynamicCrateConveyorSupplies
-DynamicCratePipeSupplies
-DynamicGasCanisterAir
-DynamicGasCanisterCarbonDioxide
-DynamicGasCanisterEmpty
-DynamicGasCanisterFuel
-DynamicGasCanisterNitrogen
-DynamicGasCanisterOxygen
-DynamicGasCanisterPropane
-DynamicGasCanisterWater
-DynamicGenerator
-DynamicLight
-DynamicScrubber
-EffectSplatEgg
-GasTankAir
-ItemActiveVent
-ItemAreaPowerControl
-ItemBatteryCell
-ItemBatteryCellLarge
-ItemBatteryCellNuclear
-ItemBatteryCharger
-ItemBook
-ItemCableCoil
-ItemCableCoilHeavy
-ItemCableFuse
-ItemChemLightBlue
-ItemChemLightGreen
-ItemChemLightRed
-ItemChemLightWhite
-ItemChemLightYellow
-ItemCoalOre
-ItemCompositeFloorGrating
-ItemCopperIngot
-ItemCopperOre
-ItemCrowbar
-ItemDataDisk
-ItemDrill
-ItemDuctTape
-ItemEggCarton
-ItemEvaSuit
-ItemFireExtinguisher
-ItemFlashingLight
-ItemFlour
-ItemGasCanisterCarbonDioxide
-ItemGasCanisterChlorine
-ItemGasCanisterEmpty
-ItemGasCanisterFuel
-ItemGasCanisterHydrogen
-ItemGasCanisterNitrogen
-ItemGasCanisterOxygen
-ItemGasCanisterWater
-ItemGasFilterCarbonDioxide
-ItemGasFilterChlorine
-ItemGasFilterNitrogen
-ItemGasFilterOxygen
-ItemGasFilterPropane
-ItemGasFilterWater
-ItemGasSensor
-ItemGasTankStorage
-ItemGlassSheets
-ItemGoldIngot
-ItemGoldOre
-ItemGrenade
-ItemHat
-ItemHydroponicTray
-ItemIce
-ItemIgniter
-ItemInsulation
-ItemIronIngot
-ItemIronOre
-ItemKitAirlock
-ItemKitAtmospherics
-ItemKitBattery
-ItemKitCentrifuge
-ItemKitChute
-ItemKitComputer
-ItemKitConsole
-ItemKitConveyor
-ItemKitCryoTube
-ItemKitEngine
-ItemKitFabricator
-ItemKitFurnace
-ItemKitFurniture
-ItemKitGenerator
-ItemKitGyroscope
-ItemKitRegulator
-ItemKitSensor
-ItemKitSleeper
-ItemKitSolarPanel
-ItemKitStairs
-ItemKitStellarAnchor
-ItemKitStorage
-ItemKitTank
-ItemKitTorpedoTube
-ItemKitTransformer
-ItemKitTurret
-ItemKitWall
-ItemLabeller
-ItemLightSword
-ItemMilk
-ItemMiningBelt
-ItemMiningDrill
-ItemMuffin
-ItemPassiveVent
-ItemPickaxe
-ItemPillHeal
-ItemPillStun
-ItemPipeAnalyizer
-ItemPipeCorner
-ItemPipeCrossJunction
-ItemPipeCrossJunction3
-ItemPipeCrossJunction5
-ItemPipeCrossJunction6
-ItemPipeDigitalValve
-ItemPipeGasMixer
-ItemPipeLabel
-ItemPipeMeter
-ItemPipeRadiator
-ItemPipeStraight
-ItemPipeTJunction
-ItemPipeValve
-ItemPipeVolumePump
-ItemPowerConnector
-ItemReagentMix
-ItemRoadFlare
-ItemRTG
-ItemScanner
-ItemScrewdriver
-ItemSecurityCamera
-ItemSpaceCleaner
-ItemSpaceHelmet
-ItemSpacepack
-ItemSprayCanBlack
-ItemSprayCanBlue
-ItemSprayCanBrown
-ItemSprayCanGreen
-ItemSprayCanGrey
-ItemSprayCanKhaki
-ItemSprayCanOrange
-ItemSprayCanPink
-ItemSprayCanPurple
-ItemSprayCanRed
-ItemSprayCanWhite
-ItemSprayCanYellow
-ItemSteelFrames
-ItemSteelIngot
-ItemSteelSheets
-ItemSuitStorage
-ItemTablet
-ItemTankConnector
-ItemToolBelt
-ItemUraniumOre
-ItemWallCooler
-ItemWallHeater
-ItemWallLight
-ItemWasteIngot
-ItemWeldingTorch
-ItemWheat
-ItemWireCutters
-ItemWrench
--->
-
-
-

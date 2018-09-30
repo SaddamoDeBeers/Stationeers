@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ChemistryRecipes>
+  
     <RecipeData>
       <PrefabName>ItemPillHeal</PrefabName>
-      <Recipe>
-		<Flour>50</Flour>
-		<Time>5</Time>
+        <Recipe>
+        <Fenoxitone>80</Fenoxitone>
+        <Silver>10</Silver>
+        <Electrum>20</Electrum>
+        <Time>5</Time>
       </Recipe>
     </RecipeData>
-	<RecipeData>
+    
+    <RecipeData>
       <PrefabName>ItemPillStun</PrefabName>
-      <Recipe>
-		<Uranium>1</Uranium>
-		<Time>10</Time>
+        <Recipe>
+        <Fenoxitone>80</Fenoxitone>
+        <Invar>20</Invar>
+        <Time>5</Time>
       </Recipe>
     </RecipeData>
-	<RecipeData>
-      <PrefabName>ItemFertilizedEgg</PrefabName>
-      <Recipe>
-		<Egg>1</Egg>
-		<Time>50</Time>
+    
+    
+    <RecipeData>
+      <PrefabName>ItemMilk</PrefabName>
+        <Recipe>
+        <Oil>100</Oil>
+        <Fenoxitone>50</Fenoxitone>
+        <Time>10</Time>
       </Recipe>
     </RecipeData>
+    
   </ChemistryRecipes>
 </GameData>

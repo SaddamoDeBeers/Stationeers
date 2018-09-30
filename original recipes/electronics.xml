@@ -90,6 +90,43 @@
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
+	</RecipeData>
+	<RecipeData>
+	  <PrefabName>CartridgeOreScannerColor</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>100</Energy>
+        <Iron>1</Iron>
+		<Copper>5</Copper>
+		<Gold>5</Gold>
+		<Silicon>5</Silicon>
+		<Silver>0</Silver>
+		<Lead>0</Lead>
+		<Nickel>0</Nickel>
+		<Solder>5</Solder>
+		<Carbon>0</Carbon>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+		<Electrum>10</Electrum>
+		<Invar>10</Invar>
+		<Constantan>5</Constantan>
+      </Recipe>
+	</RecipeData>
+	  
+  	<RecipeData>
+      <PrefabName>CartridgeConfiguration</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>100</Energy>
+        <Iron>1</Iron>
+		<Gold>5</Gold>
+		<Carbon>0</Carbon>
+		<Copper>5</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
   </RecipeData>
 	<RecipeData>
       <PrefabName>CartridgeTracker</PrefabName>
@@ -119,6 +156,20 @@
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>	
+	<RecipeData>
+      <PrefabName>CircuitboardAdvAirlockControl</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>100</Energy>
+        <Iron>1</Iron>
+		<Gold>5</Gold>
+		<Carbon>0</Carbon>
+		<Copper>5</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
 	<RecipeData>
       <PrefabName>CircuitboardAirlockControl</PrefabName>
       <Recipe>
@@ -217,6 +268,29 @@
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>CircuitboardGraphDisplay</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>100</Energy>
+        <Iron>0</Iron>
+		<Gold>5</Gold>
+		<Copper>5</Copper>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>CircuitboardHashDisplay</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>100</Energy>
+        <Iron>0</Iron>
+		<Gold>5</Gold>
+		<Copper>5</Copper>
+      </Recipe>	  
+    </RecipeData>
+    
 	<RecipeData>
       <PrefabName>ItemAreaPowerControl</PrefabName>
       <Recipe>
@@ -324,6 +398,22 @@
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemKitSecurityPrinter</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>100</Energy>
+        <Iron>0</Iron>
+		<Gold>20</Gold>
+		<Carbon>0</Carbon>
+		<Copper>20</Copper>
+		<Steel>20</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>	    
+    
 	<RecipeData>
       <PrefabName>ItemKitBattery</PrefabName>
       <Recipe>
@@ -394,6 +484,22 @@
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemKitSpeaker</PrefabName>
+      <Recipe>
+	  	<Time>10</Time>
+		<Energy>1000</Energy>
+        <Iron>0</Iron>
+		<Gold>1</Gold>
+		<Carbon>0</Carbon>
+		<Copper>1</Copper>
+		<Steel>5</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+    
 	<RecipeData>
       <PrefabName>ItemKitLogicProcessor</PrefabName>
       <Recipe>
@@ -408,6 +514,7 @@
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
     </RecipeData>
+    
 	<RecipeData>
       <PrefabName>ItemKitLogicSwitch</PrefabName>
       <Recipe>
@@ -417,6 +524,44 @@
 		<Gold>1</Gold>
 		<Carbon>0</Carbon>
 		<Copper>1</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemIntegratedCircuit10</PrefabName>
+      <Recipe>
+	  	  <Time>40</Time>
+		    <Energy>2000</Energy>
+			<Gold>10</Gold>
+		    <Steel>4</Steel>
+		    <Electrum>5</Electrum>
+		    <Solder>2</Solder>
+		   </Recipe>
+    </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemKitLogicCircuit</PrefabName>
+      <Recipe>
+	  	  <Time>40</Time>
+		    <Energy>2000</Energy>
+			<Copper>10</Copper>
+		    <Steel>4</Steel>
+		    <Solder>2</Solder>
+		   </Recipe>
+    </RecipeData>    
+    	
+	<RecipeData>
+      <PrefabName>ItemKitPressurePlate</PrefabName>
+      <Recipe>
+	  	<Time>10</Time>
+		<Energy>1000</Energy>
+        <Iron>0</Iron>
+		<Gold>2</Gold>
+		<Carbon>0</Carbon>
+		<Copper>2</Copper>
 		<Steel>0</Steel>
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
@@ -591,6 +736,27 @@
       </Recipe>	  
     </RecipeData>
 	<RecipeData>
+      <PrefabName>MotherboardProgrammableChip</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>10</Energy>
+        <Iron>0</Iron>
+		<Copper>5</Copper>
+		<Gold>5</Gold>
+		<Silver>0</Silver>
+		<Lead>0</Lead>
+		<Nickel>0</Nickel>
+		<Steel>0</Steel>
+		<Solder>0</Solder>
+		<Electrum>0</Electrum>
+		<Invar>0</Invar>
+		<Constantan>0</Constantan>
+		<Carbon>0</Carbon>		      
+		<Hydrocarbon>0</Hydrocarbon>
+		<Uranium>0</Uranium> 
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
       <PrefabName>MotherboardManufacturing</PrefabName>
       <Recipe>
 	  	<Time>30</Time>
@@ -661,8 +827,180 @@
         <Copper>2</Copper>
         <Gold>10</Gold>
         <Steel>5</Steel>
-        <Solder>5</Solder>
       </Recipe>
     </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemKitElevator</PrefabName>
+      <Recipe>
+	  	<Time>5</Time>
+		<Energy>500</Energy>
+		<Copper>2</Copper>
+		<Gold>4</Gold>
+		<Steel>2</Steel>
+		<Solder>2</Solder>
+      </Recipe>	  
+    </RecipeData>
+	<RecipeData>
+      <PrefabName>ItemKitHydroponicStation</PrefabName>
+      <Recipe>
+	  	  <Time>120</Time>
+		    <Energy>500</Energy>
+        <Gold>5</Gold>
+        <Copper>20</Copper>
+        <Steel>10</Steel>
+		    <Nickel>5</Nickel>
+      </Recipe>
+    </RecipeData>    
+    
+	<RecipeData>
+      <PrefabName>ItemKitHydroponicAutomated</PrefabName>
+      <Recipe>
+	  	  <Time>240</Time>
+		    <Energy>1500</Energy>
+        <Electrum>10</Electrum>
+        <Copper>20</Copper>
+        <Steel>10</Steel>
+		    <Solder>10</Solder>
+		    <Silicon>10</Silicon>
+      </Recipe>
+    </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemKitDynamicGenerator</PrefabName>
+      <Recipe>
+	  	<Time>120</Time>
+		<Energy>5000</Energy>
+		<Gold>15</Gold>
+		<Nickel>15</Nickel>
+		<Steel>20</Steel>
+		<Solder>5</Solder>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemKitVendingMachine</PrefabName>
+      <Recipe>
+	  	<Time>240</Time>
+		<Energy>15000</Energy>
+		<Steel>20</Steel>
+		<Gold>50</Gold>
+		<Solder>10</Solder>
+		<Electrum>50</Electrum>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemKitTurbineGenerator</PrefabName>
+      <Recipe>
+	  	<Time>60</Time>
+		  <Energy>2000</Energy>
+		  <Iron>5</Iron>
+		  <Gold>4</Gold>
+		  <Solder>4</Solder>
+        <Copper>2</Copper>
+      </Recipe>	  
+    </RecipeData>
+    
+    
+	<RecipeData>
+      <PrefabName>ItemLabeller</PrefabName>
+      <Recipe>
+	  	<Time>15</Time>
+		<Energy>800</Energy>
+        <Iron>3</Iron>
+		<Gold>1</Gold>
+		<Carbon>0</Carbon>
+		<Copper>2</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemWearLamp</PrefabName>
+      <Recipe>
+	  	<Time>15</Time>
+		<Energy>500</Energy>
+		<Gold>2</Gold>
+		<Copper>2</Copper>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ApplianceMicrowave</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>1500</Energy>
+        <Iron>5</Iron>
+		<Gold>1</Gold>
+		<Carbon>0</Carbon>
+		<Copper>2</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ApplianceReagentProcessor</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>1500</Energy>
+        <Iron>5</Iron>
+		<Gold>1</Gold>
+		<Carbon>0</Carbon>
+		<Copper>2</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ApplianceChemistryStation</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>1500</Energy>
+		  <Gold>1</Gold>
+      <Copper>5</Copper>
+      <Steel>5</Steel>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>AppliancePaintMixer</PrefabName>
+      <Recipe>
+	  	<Time>45</Time>
+		<Energy>1500</Energy>
+		  <Gold>1</Gold>
+      <Copper>5</Copper>
+      <Steel>5</Steel>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemKitMothershipCore</PrefabName>
+      <Recipe>
+	  	<Time>90</Time>
+		<Energy>3000</Energy>
+        <Iron>0</Iron>
+		<Copper>10</Copper>
+		<Gold>10</Gold>
+		<Silicon>0</Silicon>
+		<Silver>0</Silver>
+		<Lead>0</Lead>
+		<Nickel>0</Nickel>
+		<Steel>40</Steel>
+		<Solder>0</Solder>
+		<Electrum>10</Electrum>
+		<Invar>0</Invar>
+		<Constantan>10</Constantan>
+		<Carbon>0</Carbon>		      
+		<Hydrocarbon>0</Hydrocarbon>
+		<Uranium>0</Uranium> 
+      </Recipe>	  
+    </RecipeData>
+	
   </ElectronicsPrinterRecipes>
 </GameData>

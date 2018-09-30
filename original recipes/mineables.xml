@@ -157,5 +157,19 @@
 	  <MaxVeinAttempts>50</MaxVeinAttempts>
 	  <MinVeinAttempts>30</MinVeinAttempts>
     </MineableData>
+
+	<MineableData>
+	  <DisplayName>Geyser</DisplayName>
+      <OrePrefabName>ItemIce</OrePrefabName>
+      <VisualizerPrefabName>AsteroidGeyserHydrogen</VisualizerPrefabName>
+      <Rarity>90</Rarity>
+      <MiningTime>2</MiningTime>
+	  <VoxelType>GeyserHydrogen</VoxelType>
+	  <VeinSize>1</VeinSize>
+	  <MaxDropQuantity>0</MaxDropQuantity>
+	  <MinDropQuantity>0</MinDropQuantity>
+	  <MaxVeinAttempts>0</MaxVeinAttempts>
+	  <MinVeinAttempts>0</MinVeinAttempts>
+    </MineableData>
   </Mineables>
 </GameData>

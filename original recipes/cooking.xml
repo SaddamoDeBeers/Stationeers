@@ -13,7 +13,7 @@
     <RecipeData>
       <PrefabName>ItemCerealBar</PrefabName>
       <Recipe>
-		<Flour>50</Flour>
+		  <Flour>50</Flour>
 		<Time>5</Time>
       </Recipe>
     </RecipeData>
@@ -25,11 +25,28 @@
       </Recipe>
     </RecipeData>
     <RecipeData>
+      <PrefabName>ItemTomatoSoup</PrefabName>
+      <Recipe>
+		<Tomato>1</Tomato>
+		<Time>5</Time>
+      </Recipe>
+    </RecipeData>
+    <RecipeData>
       <PrefabName>ItemFries</PrefabName>
       <Recipe>
 		    <Potato>1</Potato>
 		    <Oil>5</Oil>
 		    <Time>10</Time>
+      </Recipe>
+    </RecipeData>
+    <RecipeData>
+      <PrefabName>ItemPumpkinPie</PrefabName>
+      <Recipe>
+        <Egg>1</Egg>
+        <Milk>10</Milk>
+		    <Flour>100</Flour>
+		    <Pumpkin>1</Pumpkin>
+		<Time>15</Time>
       </Recipe>
     </RecipeData>
   </MicrowaveRecipes>

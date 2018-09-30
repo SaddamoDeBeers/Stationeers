@@ -52,6 +52,10 @@
             <PrefabName>ItemGasFilterCarbonDioxide</PrefabName>
             <Type>GasFilter</Type>
           </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemGasFilterCarbonDioxide</PrefabName>
+            <Type>GasFilter</Type>
+          </InventoryData>
         </Contents>
       </InventoryData>
       
@@ -183,6 +187,17 @@
     </PlayerInventory>
     <InitialSpawn>
       <DynamicThingData>
+        <PrefabName>DynamicHydroponics</PrefabName>
+        <CustomName>Portable Hydroponics</CustomName>
+        <CustomColor>ColorGreen</CustomColor>
+          <Contents>
+            <InventoryData>
+              <PrefabName>ItemGasCanisterWater</PrefabName>
+            </InventoryData>
+          </Contents>
+      </DynamicThingData>    
+    
+      <DynamicThingData>
         <PrefabName>DynamicCrate</PrefabName>
         <CustomName>Construction Supplies 1</CustomName>
         <CustomColor>ColorYellow</CustomColor>
@@ -237,7 +252,7 @@
             <PrefabName>ItemKitConsole</PrefabName>
           </InventoryData>
           <InventoryData>
-            <PrefabName>ItemKitAirlock</PrefabName>
+            <PrefabName>ItemKitDoor</PrefabName>
             <StackSize>2</StackSize>
           </InventoryData>
           <InventoryData>
@@ -268,7 +283,7 @@
       
       <DynamicThingData>
         <PrefabName>DynamicCrate</PrefabName>
-        <CustomName>Organic Supplies</CustomName>
+        <CustomName>Organic Supplies 1</CustomName>
         <CustomColor>ColorGreen</CustomColor>
         <Contents>
           <InventoryData>
@@ -296,7 +311,7 @@
           </InventoryData>
           <InventoryData>
             <PrefabName>ItemPotato</PrefabName>
-			<StackSize>5</StackSize>
+			      <StackSize>5</StackSize>
           </InventoryData>
           <InventoryData>
             <PrefabName>ItemWheat</PrefabName>
@@ -313,6 +328,51 @@
           <InventoryData>
             <PrefabName>ItemSoybean</PrefabName>
             <StackSize>5</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemTomato</PrefabName>
+            <StackSize>5</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemPumpkin</PrefabName>
+            <StackSize>1</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemCerealBar</PrefabName>
+          </InventoryData>
+		  <InventoryData>
+            <PrefabName>ItemCerealBar</PrefabName>
+          </InventoryData>
+        </Contents>
+      </DynamicThingData>
+      
+      <DynamicThingData>
+        <PrefabName>DynamicCrate</PrefabName>
+        <CustomName>Organic Supplies 2</CustomName>
+        <CustomColor>ColorGreen</CustomColor>
+        <Contents>
+          <InventoryData>
+            <PrefabName>ItemFlowerBlue</PrefabName>
+			      <StackSize>5</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemFlowerGreen</PrefabName>
+            <StackSize>5</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemFlowerOrange</PrefabName>
+            <StackSize>5</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemFlowerRed</PrefabName>
+            <StackSize>5</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemFlowerYellow</PrefabName>
+            <StackSize>5</StackSize>
+          </InventoryData>
+          <InventoryData>
+            <PrefabName>ItemCerealBar</PrefabName>
           </InventoryData>
           <InventoryData>
             <PrefabName>ItemCerealBar</PrefabName>
@@ -339,11 +399,10 @@
             <StackSize>999</StackSize>
           </InventoryData>
           <InventoryData>
-            <PrefabName>ItemRoadFlare</PrefabName>
-            <StackSize>999</StackSize>
+            <PrefabName>CircuitboardAdvAirlockControl</PrefabName>
           </InventoryData>
           <InventoryData>
-            <PrefabName>ItemRoadFlare</PrefabName>
+            <PrefabName>ItemFlagSmall</PrefabName>
             <StackSize>999</StackSize>
           </InventoryData>
           <InventoryData>

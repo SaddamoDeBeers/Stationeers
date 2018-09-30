@@ -5,11 +5,12 @@
     <WorldSettingData>
     <Name>Moon</Name>
     <Description>While the presence of Coal isn't typical of Earth's Moon, the relatively flat terrain full of various sizeable craters and lack of atmosphere may be more familiar in this grey landscape.</Description>
+    <Thumbnail>moonsurv</Thumbnail>
     <GameMode>Survival</GameMode>
     <SkyBoxMaterialName>Starfield Skybox</SkyBoxMaterialName>
     <SunPrefabName>MoonSun</SunPrefabName>
     <TerrainPrefabName>TerrainMoon</TerrainPrefabName>
-    <Gravity>-9.8</Gravity>
+    <Gravity>-1.62</Gravity>
     <SizeOfWorld>10</SizeOfWorld>
     <WorldOreDensity>0.001</WorldOreDensity>
     <NumberOfCratersPerRegion>5</NumberOfCratersPerRegion>
@@ -21,23 +22,107 @@
       <Feature>Normal</Feature>
       <Feature>Craters</Feature>
     </TerrainGenerationFeatures>
+    <Planets>
+      <Prefab>PlanetEarth</Prefab>
+    </Planets>
+    <AmbientSkyColor>
+        <r>0.1838235</r>
+        <g>0.1838235</g>
+        <b>0.1838235</b>
+        <a>1</a>
+    </AmbientSkyColor>
+    <AmbientEquatorColor>
+        <r>0.1176471</r>
+        <g>0.1176471</g>
+        <b>0.1176471</b>
+        <a>1</a>
+    </AmbientEquatorColor>
+    <AmbientGroundColor>
+        <r>0.08088237</r>
+        <g>0.08088237</g>
+        <b>0.08088237</b>
+        <a>1</a>
+    </AmbientGroundColor>
+    <NoTerrainLod>true</NoTerrainLod>
   </WorldSettingData>
 
   <WorldSettingData>
     <Name>Mars</Name>
-    <Description>While not as red as the moniker "The Red Planet" might imply, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something...</Description>
+    <Description>A desolate dusty red ball, Mars features more varied terrain that can reach into the sky, and a chilly atmosphere that's no good for breathing, but maybe it can be used for something...</Description>
+    <Thumbnail>mars</Thumbnail>
     <GameMode>Survival</GameMode>
     <SkyBoxMaterialName>MarsSky</SkyBoxMaterialName>
     <SunPrefabName>MarsSun</SunPrefabName>
     <TerrainPrefabName>TerrainMars</TerrainPrefabName>
-    <Gravity>-9.8</Gravity>
+    <Gravity>-3.7</Gravity>
     <SizeOfWorld>10</SizeOfWorld>
     <WorldOreDensity>0.001</WorldOreDensity>
     <NumberOfCratersPerRegion>0</NumberOfCratersPerRegion>
     <NumberOfRegions>0</NumberOfRegions>
     <SizeOfCraterRegions>0</SizeOfCraterRegions>
     <BedrockLevel>-40</BedrockLevel>
-    <Kelvin>213.15</Kelvin>
+    <Kelvin>
+        <keys>
+          <Keyframe>
+            <time>0</time>
+            <value>278.15</value>
+            <inTangent>60</inTangent>
+            <outTangent>60</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>0.25</time>
+            <value>293.15</value>
+            <inTangent>-10</inTangent>
+            <outTangent>-10</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>0.5</time>
+            <value>278.15</value>
+            <inTangent>-192</inTangent>
+            <outTangent>-192</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>0.75</time>
+            <value>197.15</value>
+            <inTangent>10</inTangent>
+            <outTangent>10</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>1</time>
+            <value>278</value>
+            <inTangent>324</inTangent>
+            <outTangent>324</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+        </keys>
+        <preWrapMode>ClampForever</preWrapMode>
+        <postWrapMode>ClampForever</postWrapMode>
+    </Kelvin>    
+    <SolarScale>0.91</SolarScale>
+    <SolarEclipticAngle>8</SolarEclipticAngle>
+    <AmbientSkyColor>
+        <r>0.1911765</r>
+        <g>0.1552097</g>
+        <b>0.1419766</b>
+        <a>1</a>
+    </AmbientSkyColor>
+    <AmbientEquatorColor>
+        <r>0.08823532</r>
+        <g>0.05644465</g>
+        <b>0.05644465</b>
+        <a>1</a>
+    </AmbientEquatorColor>
+    <AmbientGroundColor>
+        <r>0.02941179</r>
+        <g>0.02941179</g>
+        <b>0.02941179</b>
+        <a>1</a>
+    </AmbientGroundColor>
+  <AtmosphericScattering>true</AtmosphericScattering>
     <AtmosphereComposition>
       <SpawnGas>
         <Type>CarbonDioxide</Type>
@@ -82,11 +167,363 @@
         <Size>4</Size>
       </Parameter>
     </CustomTerrainParameters>
+    <AtmosphericScatteringData>
+      <WorldRayleighColorRamp>
+        <colorKeys>
+          <GradientColorKey>
+            <color>
+              <r>0.5647059</r>
+              <g>0.447058827</g>
+              <b>0.447058827</b>
+              <a>1</a>
+            </color>
+            <time>0.00588998245</time>
+          </GradientColorKey>
+          <GradientColorKey>
+            <color>
+              <r>0.272058845</r>
+              <g>0.158034176</g>
+              <b>0.158034176</b>
+              <a>1</a>
+            </color>
+            <time>1</time>
+          </GradientColorKey>
+        </colorKeys>
+        <alphaKeys>
+          <GradientAlphaKey>
+            <alpha>1</alpha>
+            <time>0</time>
+          </GradientAlphaKey>
+          <GradientAlphaKey>
+            <alpha>1</alpha>
+            <time>1</time>
+          </GradientAlphaKey>
+        </alphaKeys>
+        <mode>Blend</mode>
+      </WorldRayleighColorRamp>
+      <WorldRayleighColorIntensity>1</WorldRayleighColorIntensity>
+      <WorldRayleighDensity>1200</WorldRayleighDensity>
+      <WorldRayleighExtinctionFactor>0.82</WorldRayleighExtinctionFactor>
+      <WorldRayleighIndirectScatter>0.4</WorldRayleighIndirectScatter>
+      <WorldMieColorIntensity>1.3</WorldMieColorIntensity>
+      <WorldMieColorRamp>
+        <colorKeys>
+          <GradientColorKey>
+            <color>
+              <r>1</r>
+              <g>0.117647059</g>
+              <b>0.117647059</b>
+              <a>1</a>
+            </color>
+            <time>0</time>
+          </GradientColorKey>
+          <GradientColorKey>
+            <color>
+              <r>1</r>
+              <g>0.549019635</g>
+              <b>0.235294119</b>
+              <a>1</a>
+            </color>
+            <time>1</time>
+          </GradientColorKey>
+        </colorKeys>
+        <alphaKeys>
+          <GradientAlphaKey>
+            <alpha>1</alpha>
+            <time>0</time>
+          </GradientAlphaKey>
+          <GradientAlphaKey>
+            <alpha>1</alpha>
+            <time>1</time>
+          </GradientAlphaKey>
+        </alphaKeys>
+        <mode>Blend</mode>
+      </WorldMieColorRamp>
+      <WorldMieDensity>40</WorldMieDensity>
+      <WorldMieExtinctionFactor>1</WorldMieExtinctionFactor>
+      <WorldMiePhaseAnisotropy>0.8</WorldMiePhaseAnisotropy>
+      <WorldNearScatterPush>5.2</WorldNearScatterPush>
+      <WorldNormalDistance>1000</WorldNormalDistance>
+      <HeightRayleighColor>
+        <r>0.4044118</r>
+        <g>0.175709948</g>
+        <b>0</b>
+        <a>1</a>
+      </HeightRayleighColor>
+      <HeightRayleighIntensity>1</HeightRayleighIntensity>
+      <HeightRayleighDensity>500</HeightRayleighDensity>
+      <HeightMieDensity>50</HeightMieDensity>
+      <HeightExtinctionFactor>0</HeightExtinctionFactor>
+      <HeightSeaLevel>0</HeightSeaLevel>
+      <HeightDistance>80</HeightDistance>
+      <HeightPlaneShift>
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </HeightPlaneShift>
+      <HeightNearScatterPush>10.8</HeightNearScatterPush>
+      <HeightNormalDistance>1000</HeightNormalDistance>
+      <UseOcclusion>false</UseOcclusion>
+      <OcclusionBias>0</OcclusionBias>
+      <OcclusionBiasIndirect>0.8</OcclusionBiasIndirect>
+      <OcclusionBiasClouds>0.1</OcclusionBiasClouds>
+      <OcclusionDownscale>x2</OcclusionDownscale>
+      <OcclusionSamples>x64</OcclusionSamples>
+      <OcclusionDepthFixup>true</OcclusionDepthFixup>
+      <OcclusionDepthThreshold>25</OcclusionDepthThreshold>
+      <OcclusionFullSky>true</OcclusionFullSky>
+      <OcclusionBiasSkyRayleigh>0.2</OcclusionBiasSkyRayleigh>
+      <OcclusionBiasSkyMie>0.4</OcclusionBiasSkyMie>
+      <WorldScaleExponent>1</WorldScaleExponent>
+      <ForcePerPixel>false</ForcePerPixel>
+      <ForcePostEffect>false</ForcePostEffect>
+    </AtmosphericScatteringData>
+
+    <LengthOfTerrainLodPlane>70</LengthOfTerrainLodPlane>
+    <WidthOfTerrainLodPlane>70</WidthOfTerrainLodPlane>
+    <SizeOfTerrainLodQuads>16</SizeOfTerrainLodQuads>
+    <TerrainLodColor>
+        <r>1</r>
+        <g>0.5725490196078431</g>
+        <b>0.4470588235294118</b>
+        <a>1.0</a>
+    </TerrainLodColor>
+    <AlphaCutoutDistance>20.0</AlphaCutoutDistance>
+  </WorldSettingData>
+  
+  <WorldSettingData>
+    <Name>Europa</Name>
+    <Description>Melting some of the ice on this cold world has finally given it an atmosphere, but it's extremely frigid environment presents an extreme challenge for the stationeers.</Description>
+    <Thumbnail>europa</Thumbnail>
+    <GameMode>Survival</GameMode>
+    <SkyBoxMaterialName>EuropaSky</SkyBoxMaterialName>
+    <SunPrefabName>MarsSun</SunPrefabName>
+    <TerrainPrefabName>TerrainEuropa</TerrainPrefabName>
+    <Gravity>-1.3</Gravity>
+    <SizeOfWorld>10</SizeOfWorld>
+    <WorldOreDensity>0.001</WorldOreDensity>
+    <NumberOfCratersPerRegion>0</NumberOfCratersPerRegion>
+    <NumberOfRegions>0</NumberOfRegions>
+    <SizeOfCraterRegions>0</SizeOfCraterRegions>
+    <BedrockLevel>-40</BedrockLevel>
+    <Kelvin>
+        <keys>
+          <Keyframe>
+            <time>0</time>
+            <value>123.7</value>
+            <inTangent>60</inTangent>
+            <outTangent>60</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>0.25</time>
+            <value>133.7</value>
+            <inTangent>-10</inTangent>
+            <outTangent>-10</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>0.5</time>
+            <value>123.7</value>
+            <inTangent>-192</inTangent>
+            <outTangent>-192</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>0.75</time>
+            <value>123.7</value>
+            <inTangent>10</inTangent>
+            <outTangent>10</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+          <Keyframe>
+            <time>1</time>
+            <value>123.7</value>
+            <inTangent>324</inTangent>
+            <outTangent>324</outTangent>
+            <tangentMode>34</tangentMode>
+          </Keyframe>
+        </keys>
+        <preWrapMode>ClampForever</preWrapMode>
+        <postWrapMode>ClampForever</postWrapMode>
+    </Kelvin>
+    <AmbientSkyColor>
+        <r>0.1419766</r>
+        <g>0.1606386</g>
+        <b>0.1911765</b>
+        <a>1</a>
+    </AmbientSkyColor>
+    <AmbientEquatorColor>
+        <r>0.08953287</r>
+        <g>0.1199499</g>
+        <b>0.1323529</b>
+        <a>1</a>
+    </AmbientEquatorColor>
+    <AmbientGroundColor>
+        <r>0.02941179</r>
+        <g>0.02941179</g>
+        <b>0.02941179</b>
+        <a>1</a>
+    </AmbientGroundColor>
+    
+    <LengthOfTerrainLodPlane>70</LengthOfTerrainLodPlane>
+    <WidthOfTerrainLodPlane>70</WidthOfTerrainLodPlane>
+    <SizeOfTerrainLodQuads>4</SizeOfTerrainLodQuads>
+    <TerrainLodColor>
+        <r>0.4196078431372549</r>
+        <g>0.4862745098039216</g>
+        <b>0.5529411764705882</b>
+        <a>1.0</a>
+    </TerrainLodColor>
+    <AlphaCutoutDistance>20.0</AlphaCutoutDistance>
+
+    <SolarScale>0.42</SolarScale>
+    <SolarEclipticAngle>32</SolarEclipticAngle>
+    <AtmosphericScattering>true</AtmosphericScattering>
+    <Planets>
+      <Prefab>PlanetJupiter</Prefab>
+    </Planets>
+  <AtmosphericScatteringData>
+  <WorldRayleighColorRamp>
+    <colorKeys>
+      <GradientColorKey>
+        <color>
+          <r>0.1875</r>
+          <g>0.219827592</g>
+          <b>0.375</b>
+          <a>1</a>
+        </color>
+        <time>0</time>
+      </GradientColorKey>
+      <GradientColorKey>
+        <color>
+          <r>0</r>
+          <g>0.06921903</g>
+          <b>0.1544118</b>
+          <a>1</a>
+        </color>
+        <time>1</time>
+      </GradientColorKey>
+    </colorKeys>
+    <alphaKeys>
+      <GradientAlphaKey>
+        <alpha>1</alpha>
+        <time>0</time>
+      </GradientAlphaKey>
+      <GradientAlphaKey>
+        <alpha>1</alpha>
+        <time>1</time>
+      </GradientAlphaKey>
+    </alphaKeys>
+    <mode>Blend</mode>
+  </WorldRayleighColorRamp>
+  <WorldRayleighColorIntensity>0</WorldRayleighColorIntensity>
+  <WorldRayleighDensity>1000</WorldRayleighDensity>
+  <WorldRayleighExtinctionFactor>1.3</WorldRayleighExtinctionFactor>
+  <WorldRayleighIndirectScatter>0.4</WorldRayleighIndirectScatter>
+  <WorldMieColorIntensity>0</WorldMieColorIntensity>
+  <WorldMieColorRamp>
+    <colorKeys>
+      <GradientColorKey>
+        <color>
+          <r>0.175173014</r>
+          <g>0.240973637</g>
+          <b>0.397058845</b>
+          <a>1</a>
+        </color>
+        <time>0</time>
+      </GradientColorKey>
+      <GradientColorKey>
+        <color>
+          <r>0</r>
+          <g>0.6998988</g>
+          <b>0.9852941</b>
+          <a>1</a>
+        </color>
+        <time>1</time>
+      </GradientColorKey>
+    </colorKeys>
+    <alphaKeys>
+      <GradientAlphaKey>
+        <alpha>1</alpha>
+        <time>0</time>
+      </GradientAlphaKey>
+      <GradientAlphaKey>
+        <alpha>1</alpha>
+        <time>1</time>
+      </GradientAlphaKey>
+    </alphaKeys>
+    <mode>Blend</mode>
+  </WorldMieColorRamp>
+  <WorldMieDensity>40</WorldMieDensity>
+  <WorldMieExtinctionFactor>1</WorldMieExtinctionFactor>
+  <WorldMiePhaseAnisotropy>0.75</WorldMiePhaseAnisotropy>
+  <WorldNearScatterPush>10.14</WorldNearScatterPush>
+  <WorldNormalDistance>1000</WorldNormalDistance>
+  <HeightRayleighColor>
+    <r>0.119539358</r>
+    <g>0.186611831</g>
+    <b>0.242647052</b>
+    <a>1</a>
+  </HeightRayleighColor>
+  <HeightRayleighIntensity>0</HeightRayleighIntensity>
+  <HeightRayleighDensity>116.62</HeightRayleighDensity>
+  <HeightMieDensity>119.3</HeightMieDensity>
+  <HeightExtinctionFactor>0</HeightExtinctionFactor>
+  <HeightSeaLevel>0</HeightSeaLevel>
+  <HeightDistance>80</HeightDistance>
+  <HeightPlaneShift>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </HeightPlaneShift>
+  <HeightNearScatterPush>16.62</HeightNearScatterPush>
+  <HeightNormalDistance>1000</HeightNormalDistance>
+  <UseOcclusion>false</UseOcclusion>
+  <OcclusionBias>0</OcclusionBias>
+  <OcclusionBiasIndirect>0.8</OcclusionBiasIndirect>
+  <OcclusionBiasClouds>0.1</OcclusionBiasClouds>
+  <OcclusionDownscale>x2</OcclusionDownscale>
+  <OcclusionSamples>x64</OcclusionSamples>
+  <OcclusionDepthFixup>true</OcclusionDepthFixup>
+  <OcclusionDepthThreshold>25</OcclusionDepthThreshold>
+  <OcclusionFullSky>false</OcclusionFullSky>
+  <OcclusionBiasSkyRayleigh>0.2</OcclusionBiasSkyRayleigh>
+  <OcclusionBiasSkyMie>0.4</OcclusionBiasSkyMie>
+  <WorldScaleExponent>1</WorldScaleExponent>
+  <ForcePerPixel>false</ForcePerPixel>
+  <ForcePostEffect>false</ForcePostEffect>
+</AtmosphericScatteringData>
+    <AtmosphereComposition>
+      <SpawnGas>
+        <Type>Oxygen</Type>
+        <Quantity>670</Quantity>
+        <Name>Oxygen</Name>
+      </SpawnGas>
+    </AtmosphereComposition>
+    <TerrainGenerationFeatures>
+      <Feature>Custom</Feature>
+    </TerrainGenerationFeatures>
+    <CustomTerrainParameters>
+      <Parameter>
+        <TwoDimensions>true</TwoDimensions>
+        <Frequency>0.1</Frequency>
+        <Amplitude>4.0</Amplitude>
+        <Size>5</Size>
+      </Parameter>
+      <Parameter>
+        <TwoDimensions>true</TwoDimensions>
+        <Frequency>0.05</Frequency>
+        <Amplitude>5.0</Amplitude>
+        <Size>4</Size>
+      </Parameter>
+    </CustomTerrainParameters>
   </WorldSettingData>
 
   <WorldSettingData>
     <Name>Space</Name>
     <Description>While there's no gravity or atmosphere, at least there's a lot of space to build?  You'll find yourself amongst several asteroids that may contain various ores and ices you may be able to use to survive out here.</Description>
+    <Thumbnail>spacecrtv</Thumbnail>
     <GameMode>Creative</GameMode>
     <SkyBoxMaterialName>Starfield Skybox</SkyBoxMaterialName>
     <SunPrefabName>SpaceSun</SunPrefabName>
@@ -102,6 +539,25 @@
     <TerrainGenerationFeatures>
       <Feature>Asteroids</Feature>
     </TerrainGenerationFeatures>
+    <AmbientSkyColor>
+        <r>0.1838235</r>
+        <g>0.1838235</g>
+        <b>0.1838235</b>
+        <a>1</a>
+    </AmbientSkyColor>
+    <AmbientEquatorColor>
+        <r>0.1176471</r>
+        <g>0.1176471</g>
+        <b>0.1176471</b>
+        <a>1</a>
+    </AmbientEquatorColor>
+    <AmbientGroundColor>
+        <r>0.08088237</r>
+        <g>0.08088237</g>
+        <b>0.08088237</b>
+        <a>1</a>
+    </AmbientGroundColor>
+    <NoTerrainLod>true</NoTerrainLod>
   </WorldSettingData>
 
 </WorldSettings>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OrganicsPrinterRecipes>
+	<RecipeData>
+      <PrefabName>ItemPotato</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>	
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemSoyBean</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>		
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemWheat</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemCorn</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemPumpkin</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemRice</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemMushroom</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemTomato</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemFern</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemFertilizedEgg</PrefabName>
+      <Recipe>
+		<Time>300</Time>
+		<Energy>10000000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemFlowerYellow</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemFlowerRed</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemFlowerOrange</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemFlowerGreen</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+	<RecipeData>
+      <PrefabName>ItemFlowerBlue</PrefabName>
+      <Recipe>
+		<Time>120</Time>
+		<Energy>100000</Energy>			
+      </Recipe>	  
+    </RecipeData>
+	
+  </OrganicsPrinterRecipes>
+</GameData>

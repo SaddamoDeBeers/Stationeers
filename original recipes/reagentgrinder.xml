@@ -1,13 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ReagentGrinderRecipes>
+  
     <ProcessingData>
       <InputPrefab>ItemWheat</InputPrefab>
       <OutputPrefab>ItemFlour</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>5</Out>
     </ProcessingData>
+    
     <ProcessingData>
       <InputPrefab>ItemSoybean</InputPrefab>
       <OutputPrefab>ItemSoyOil</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>1</Out>
     </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemFern</InputPrefab>
+      <OutputPrefab>ReagentFenoxitone</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>5</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemSilverIngot</InputPrefab>
+      <OutputPrefab>ReagentSilver</OutputPrefab>
+      <Time>0.1</Time>
+      <In>5</In>
+      <Out>1</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemElectrumIngot</InputPrefab>
+      <OutputPrefab>ReagentElectrum</OutputPrefab>
+      <Time>0.1</Time>
+      <In>5</In>
+      <Out>1</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemGoldIngot</InputPrefab>
+      <OutputPrefab>ReagentGold</OutputPrefab>
+      <Time>0.1</Time>
+      <In>5</In>
+      <Out>1</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemInvarIngot</InputPrefab>
+      <OutputPrefab>ReagentInvar</OutputPrefab>
+      <Time>0.1</Time>
+      <In>5</In>
+      <Out>1</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemCoalOre</InputPrefab>
+      <OutputPrefab>ReagentCarbon</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>10</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemFlowerBlue</InputPrefab>
+      <OutputPrefab>ReagentColorBlue</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>5</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemFlowerGreen</InputPrefab>
+      <OutputPrefab>ReagentColorGreen</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>5</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemFlowerOrange</InputPrefab>
+      <OutputPrefab>ReagentColorOrange</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>5</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemFlowerRed</InputPrefab>
+      <OutputPrefab>ReagentColorRed</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>5</Out>
+    </ProcessingData>
+    
+    <ProcessingData>
+      <InputPrefab>ItemFlowerYellow</InputPrefab>
+      <OutputPrefab>ReagentColorYellow</OutputPrefab>
+      <Time>0.1</Time>
+      <In>1</In>
+      <Out>5</Out>
+    </ProcessingData>
+    
   </ReagentGrinderRecipes>
 </GameData>

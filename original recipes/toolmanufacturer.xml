@@ -172,18 +172,12 @@
 	<RecipeData>
       <PrefabName>ItemSpaceHelmet</PrefabName>
       <Recipe>
-	  	<Time>5</Time>
+	  	<Time>15</Time>
 		<Energy>500</Energy>
-        <Iron>5</Iron>
-		<Gold>0</Gold>
-		<Carbon>0</Carbon>
-		<Copper>0</Copper>
-		<Steel>0</Steel>
-		<Uranium>0</Uranium>
-		<Silicon>3</Silicon>
-		<Hydrocarbon>0</Hydrocarbon>
+		<Gold>2</Gold>
+		<Copper>2</Copper>
       </Recipe>	  
-    </RecipeData>	
+    </RecipeData>
 	<RecipeData>
       <PrefabName>ItemSpacepack</PrefabName>
       <Recipe>
@@ -197,7 +191,7 @@
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
-    </RecipeData>			
+    </RecipeData>
 	<RecipeData>
       <PrefabName>ItemEvaSuit</PrefabName>
       <Recipe>
@@ -211,7 +205,8 @@
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
-    </RecipeData>		
+    </RecipeData>
+    
 	<RecipeData>
       <PrefabName>ItemToolBelt</PrefabName>
       <Recipe>
@@ -305,240 +300,118 @@
 		<Uranium>0</Uranium>       
 		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
-    </RecipeData>		
-	
-	
-
-<!--	
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemHardSuit</PrefabName>
+      <Recipe>
+        <Time>60</Time>
+        <Energy>3000</Energy>
+        <Gold>2</Gold>
+        <Lead>8</Lead>
+        <Steel>10</Steel>
+        <Invar>20</Invar>
+      </Recipe>	  
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemHardSuitHelmet</PrefabName>
+      <Recipe>
+	  	<Time>50</Time>
+		<Energy>1750</Energy>
+		<Gold>4</Gold>
+		<Silver>0</Silver>
+		<Lead>2</Lead>
+		<Nickel>0</Nickel>
+		<Steel>5</Steel>
+		<Solder>0</Solder>
+		<Electrum>0</Electrum>
+		<Invar>20</Invar>
+		<Constantan>0</Constantan>
+		<Carbon>0</Carbon>
+		<Hydrocarbon>0</Hydrocarbon>
+		<Uranium>0</Uranium> 
+      </Recipe>	    
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemNVG</PrefabName>
+      <Recipe>
+	  	<Time>120</Time>
+		<Energy>2750</Energy>
+		<Gold>10</Gold>
+		<Solder>5</Solder>
+		<Constantan>5</Constantan>
+		<Silicon>10</Silicon>
+      </Recipe>	    
+    </RecipeData>
+    
+    <RecipeData>
+      <PrefabName>ItemGlasses</PrefabName>
+      <Recipe>
+	  	<Time>20</Time>
+		<Energy>250</Energy>
+		<Silicon>10</Silicon>
+		<Iron>15</Iron>
+      </Recipe>	    
+    </RecipeData> 
+    
 	<RecipeData>
-      <PrefabName>ItemGrenade</PrefabName>
+      <PrefabName>ItemHardBackpack</PrefabName>
+      <Recipe>
+	  	<Time>30</Time>
+		<Energy>1500</Energy>
+      <Copper>2</Copper>
+      <Steel>10</Steel>
+        <Gold>2</Gold>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemHardJetpack</PrefabName>
+      <Recipe>
+	  	<Time>40</Time>
+		<Energy>1750</Energy>
+        <Gold>2</Gold>
+        <Lead>4</Lead>
+        <Steel>10</Steel>
+        <Invar>8</Invar>
+      </Recipe>	  
+    </RecipeData>
+    
+	<RecipeData>
+      <PrefabName>ItemFlagSmall</PrefabName>
       <Recipe>
 	  	<Time>1</Time>
 		<Energy>500</Energy>
         <Iron>1</Iron>
-		<Copper>1</Copper>
-		<Gold>1</Gold>
-		<Silver>1</Silver>
-		<Lead>1</Lead>
-		<Nickel>1</Nickel>
-		<Steel>1</Steel>
-		<Solder>1</Solder>
-		<Electrum>1</Electrum>
-		<Invar>1</Invar>
-		<Constantan>1</Constantan>
-		<Carbon>1</Carbon>		      
-		<Hydrocarbon>1</Hydrocarbon>
-		<Uranium>1</Uranium> 
+		<Gold>0</Gold>
+		<Carbon>0</Carbon>
+		<Copper>0</Copper>
+		<Steel>0</Steel>
+		<Uranium>0</Uranium>       
+		<Hydrocarbon>0</Hydrocarbon>
       </Recipe>	  
-    </RecipeData>	
--->	
-  </ToolManufactoryRecipes>
-</GameData>
-<!--
+    </RecipeData>
 
 	<RecipeData>
-      <PrefabName>Item</PrefabName>
+      <PrefabName>ItemBasketBall</PrefabName>
       <Recipe>
 	  	<Time>1</Time>
 		<Energy>500</Energy>
-        <Iron>0</Iron>
-		<Copper>0</Copper>
-		<Gold>0</Gold>
-		<Silver>0</Silver>
-		<Lead>0</Lead>
-		<Nickel>0</Nickel>
-		<Steel>0</Steel>
-		<Solder>0</Solder>
-		<Electrum>0</Electrum>
-		<Invar>0</Invar>
-		<Constantan>0</Constantan>
-		<Carbon>0</Carbon>		      
-		<Hydrocarbon>0</Hydrocarbon>
-		<Uranium>0</Uranium> 
+        <Silicon>1</Silicon>
+      </Recipe>	  
+    </RecipeData>
+
+	<RecipeData>
+      <PrefabName>ItemKitBasket</PrefabName>
+      <Recipe>
+	  	<Time>1</Time>
+		<Energy>500</Energy>
+        <Iron>5</Iron>
+		<Copper>2</Copper> 
       </Recipe>	  
     </RecipeData>	
-
-
-
-ApplianceMicrowave
-ApplianceReagentProcessor
-CartridgeAtmosAnalyser
-CartridgeMedicalAnalyser
-CartridgeNetworkAnalyser
-CircuitboardAirControl
-CircuitboardAirlockControl
-CircuitboardCameraDisplay
-CircuitboardDoorControl
-CircuitboardGasDisplay
-CircuitboardModeControl
-CircuitboardPowerControl
-CircuitboardShipDisplay
-CircuitboardSolarControl
-DynamicAirConditioner
-DynamicCrate
-DynamicCrateBuildingSupplies
-DynamicCrateCableSupplies
-DynamicCrateConveyorSupplies
-DynamicCratePipeSupplies
-DynamicGasCanisterAir
-DynamicGasCanisterCarbonDioxide
-DynamicGasCanisterEmpty
-DynamicGasCanisterFuel
-DynamicGasCanisterNitrogen
-DynamicGasCanisterOxygen
-DynamicGasCanisterPropane
-DynamicGasCanisterWater
-DynamicGenerator
-DynamicLight
-DynamicScrubber
-EffectSplatEgg
-GasTankAir
-ItemActiveVent
-ItemAreaPowerControl
-ItemBatteryCell
-ItemBatteryCellLarge
-ItemBatteryCellNuclear
-ItemBatteryCharger
-ItemBook
-ItemCableCoil
-ItemCableCoilHeavy
-ItemCableFuse
-ItemChemLightBlue
-ItemChemLightGreen
-ItemChemLightRed
-ItemChemLightWhite
-ItemChemLightYellow
-ItemCoalOre
-ItemCompositeFloorGrating
-ItemCopperIngot
-ItemCopperOre
-ItemCrowbar
-ItemDataDisk
-ItemDrill
-ItemDuctTape
-ItemEggCarton
-ItemEvaSuit
-ItemFireExtinguisher
-ItemFlashingLight
-ItemFlour
-ItemGasCanisterCarbonDioxide
-ItemGasCanisterChlorine
-ItemGasCanisterEmpty
-ItemGasCanisterFuel
-ItemGasCanisterHydrogen
-ItemGasCanisterNitrogen
-ItemGasCanisterOxygen
-ItemGasCanisterWater
-ItemGasFilterCarbonDioxide
-ItemGasFilterChlorine
-ItemGasFilterNitrogen
-ItemGasFilterOxygen
-ItemGasFilterPropane
-ItemGasFilterWater
-ItemGasSensor
-ItemGasTankStorage
-ItemGlassSheets
-ItemGoldIngot
-ItemGoldOre
-ItemGrenade
-ItemHat
-ItemHydroponicTray
-ItemIce
-ItemIgniter
-ItemInsulation
-ItemIronIngot
-ItemIronOre
-ItemKitAirlock
-ItemKitAtmospherics
-ItemKitBattery
-ItemKitCentrifuge
-ItemKitChute
-ItemKitComputer
-ItemKitConsole
-ItemKitConveyor
-ItemKitCryoTube
-ItemKitEngine
-ItemKitFabricator
-ItemKitFurnace
-ItemKitFurniture
-ItemKitGenerator
-ItemKitGyroscope
-ItemKitRegulator
-ItemKitSensor
-ItemKitSleeper
-ItemKitSolarPanel
-ItemKitStairs
-ItemKitStellarAnchor
-ItemKitStorage
-ItemKitTank
-ItemKitTorpedoTube
-ItemKitTransformer
-ItemKitTurret
-ItemKitWall
-ItemLabeller
-ItemLightSword
-ItemMilk
-ItemMiningBelt
-ItemMiningDrill
-ItemMuffin
-ItemPassiveVent
-ItemPickaxe
-ItemPillHeal
-ItemPillStun
-ItemPipeAnalyizer
-ItemPipeCorner
-ItemPipeCrossJunction
-ItemPipeCrossJunction3
-ItemPipeCrossJunction5
-ItemPipeCrossJunction6
-ItemPipeDigitalValve
-ItemPipeGasMixer
-ItemPipeLabel
-ItemPipeMeter
-ItemPipeRadiator
-ItemPipeStraight
-ItemPipeTJunction
-ItemPipeValve
-ItemPipeVolumePump
-ItemPowerConnector
-ItemReagentMix
-ItemRoadFlare
-ItemRTG
-ItemScanner
-ItemScrewdriver
-ItemSecurityCamera
-ItemSpaceCleaner
-ItemSpaceHelmet
-ItemSpacepack
-ItemSprayCanBlack
-ItemSprayCanBlue
-ItemSprayCanBrown
-ItemSprayCanGreen
-ItemSprayCanGrey
-ItemSprayCanKhaki
-ItemSprayCanOrange
-ItemSprayCanPink
-ItemSprayCanPurple
-ItemSprayCanRed
-ItemSprayCanWhite
-ItemSprayCanYellow
-ItemSteelFrames
-ItemSteelIngot
-ItemSteelSheets
-ItemSuitStorage
-ItemTablet
-ItemTankConnector
-ItemToolBelt
-ItemUraniumOre
-ItemWallCooler
-ItemWallHeater
-ItemWallLight
-ItemWasteIngot
-ItemWeldingTorch
-ItemWheat
-ItemWireCutters
-ItemWrench
--->
-
-
-
+	
+  </ToolManufactoryRecipes>
+</GameData>
