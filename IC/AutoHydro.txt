@@ -1,0 +1,128 @@
+move r9 1​
+#​
+ls r7 d0 0 OccupantHash​
+ls r1 d0 0 Growth​
+ls r0 d0 2 Occupied​
+blez r0 09 #if <= 0  jump to 09​
+bgtz r1 09 #if > 0 jump to 09​
+s d0 Plant r9 # plant 1 crop​
+j 27 # jump to End of d0​
+#​
+beq 258339687 r7 14 #if Corn Jump to 14​
+beq -998592080 r7 14 #if Tomato jump to 14​
+sub r1 4 r1 # chek if Growth == 4​
+j 16​
+#​
+sub r1 5 r1 # chek if Growth == 5​
+#​
+blez r1 19 #if <= 0 jump to 19​
+j 27 # jump to End of d0​
+#​
+​
+​
+​
+​
+​
+s d0 Harvest r9 # Harvest The Crops​
+move r5 0 # Reset of useless timer​
+yield # Program will wait 0,5 sec​
+yield # Program will wait 0,5 sec​
+add r5 r5 1 # This useless timer counts seconds​
+# So you can measure time between harvests, haha​
+s d3 Setting r5 # d3 Connected with LED display​
+j 0​
+# End of d0​
+​
+# Full Credits to Appofis​
+# This program is not mine, I made funny comments.​
+# I was using it only for learning purposes.​
+​
+​
+​
+# This line will set your base on fire!​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+# Tear after this line, thank you for reading.Skynet
