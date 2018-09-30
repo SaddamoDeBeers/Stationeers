@@ -22,14 +22,13 @@ j 27 # jump to End of d0​
 ​
 ​
 ​
-​
 s d0 Harvest r9 # Harvest The Crops​
 move r5 0 # Reset of useless timer​
 yield # Program will wait 0,5 sec​
 yield # Program will wait 0,5 sec​
 add r5 r5 1 # This useless timer counts seconds​
 # So you can measure time between harvests, haha​
-s d3 Setting r5 # d3 Connected with LED display​
+# s d3 Setting r5 # d3 Connected with LED display​
 j 0​
 # End of d0​
 ​
@@ -113,6 +112,7 @@ j 0​
 ​
 ​
 ​
+
 ​
 ​
 ​
