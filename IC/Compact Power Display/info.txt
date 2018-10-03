@@ -1,0 +1,5 @@
+This is compact power display.
+
+left LED = grid batteries %
+middle LED = power consumption
+right LED = Amount of power available in minutes
