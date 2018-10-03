@@ -1,0 +1,50 @@
+
+start:
+
+# Reading starting values
+
+l r0 d0 Setting #Read batch reader grid ratio
+
+l r1 d1 PowerRequired #Read cable analyzer
+
+l r2 d1 PowerPotential #Read cable analyzer
+
+# End of reading starting values
+
+
+
+# Easy math part
+
+mul r3 r1 2 #Power required per 1 second
+
+div r4 r2 r3 #Power reserve in seconds
+
+div r4 r4 60 #Power reserve in minutes
+
+round r4 r4 #Rounding minutes to nice number
+
+# End of easy math
+
+
+# Displaying data
+
+s d3 Mode 1
+
+s d3 Setting r0
+
+s d4 Mode 2
+
+s d4 Setting r1
+
+s d5 Mode 0
+
+s d5 Setting r4
+
+# End of displaying data
+
+# 1 second break
+yield
+yield
+# end of the break
+
+j start # back to work
