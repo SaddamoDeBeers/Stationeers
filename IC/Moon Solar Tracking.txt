@@ -1,5 +1,0 @@
-l r0 d0 SolarAngle # subscribe on Youtube
-div r0 r0 1.8      # follow on Twitch
-s db Setting r0    # thank you for watching
-yield
-j 0
