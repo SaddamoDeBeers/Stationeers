@@ -1,0 +1,31 @@
+# Battery Grid Display with IC​
+​
+start:​
+l r0 d0 Setting​ # Set screw d0 to batch reader​
+​
+s d3 Mode 1​ # Changing LED display mode %​
+​
+s d3 Setting r0​ # sending data to LED display​
+​
+​
+yield​
+j start​
+​
+​
+​
+# You need:​
+# at least 1x Stationary Battery​
+# 1x batch reader​
+# 1x LED display, any size​
+# 1x IC housing​
+# 1x IC chip​
+# computer able to program IC​
+​
+​
+# How to make it work:​
+​
+# Batch reader reads Stationary Battery​
+# ratio and value Average​
+​
+# Set d0 screw to batch reader​
+# Set d3 screw to your Large LED display​
