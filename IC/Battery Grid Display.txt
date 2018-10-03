@@ -1,3 +1,5 @@
+​# Battery Grid Display with IC​
+​
 start:​
 l r0 d0 Setting​ # Set screw d0 to batch reader​
 ​
@@ -118,6 +120,9 @@ j start​
 ​
 ​
 ​
+​
+​
+
 ​
 ​
 ​
