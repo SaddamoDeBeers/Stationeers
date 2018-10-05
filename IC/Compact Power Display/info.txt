@@ -3,3 +3,22 @@ This is compact power display.
 left LED = grid batteries %
 middle LED = power consumption
 right LED = Amount of power available in minutes
+
+You need:
+1+ stationary battery
+1x cable analyser
+1x batch reader
+1x IC
+1x IC housing
+3x small LED monitor
+
+( obviously one computer to program IC )
+
+https://imgur.com/a/YijCNWu
+
+d0 = batch reader ( reading stationary battery, value average, ratio )
+d1 = cable analyzer
+
+d3 = LED display
+d4 = LED display
+d5 = LED display
