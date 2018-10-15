@@ -1,0 +1,18 @@
+alias GridRatio r0​
+alias MinPower r3​
+alias MaxPower r4​
+alias PowerPool r9​
+​
+move MinPower 0.30​
+move MaxPower 0.50​
+​
+l GridRatio d0 Setting​
+add PowerPool PowerPool 3​
+slt PowerPool GridRatio rr9​
+​
+s d3 Mode 1​
+s d3 Setting GridRatio​
+s d4 On PowerPool​
+​
+yield​
+j 0
