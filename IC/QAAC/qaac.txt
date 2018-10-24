@@ -1,0 +1,19 @@
+s d3 Lock 1​
+s d4 Lock 1​
+​
+l r0 d0 Mode​
+l r1 d0 On​
+​
+l r2 d1 Mode​
+l r3 d1 On​
+​
+s d3 Mode r0​
+s d3 On r1​
+​
+s d4 Mode r2​
+s d4 On r3​
+​
+yield​
+​
+​
+j 0
