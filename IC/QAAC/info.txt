@@ -1,0 +1,9 @@
+
+
+d0 - Active Vent Master 1
+d1 - Active Vent Master 2
+
+d3 - Active Vent Slave 1
+d4 - Active Vent Slave 2
+
+Slave vents will be locked.
