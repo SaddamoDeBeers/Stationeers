@@ -1,0 +1,23 @@
+​
+​
+s d1 Lock 1​
+s d3 Lock 1​
+​
+l r0 d0 Setting​
+l r1 d1 Temperature​
+l r2 d1 Pressure​
+​
+sub r10 r1 273.15​
+​
+sgt r10 r10 30​
+sgt r3 r0 1​
+​
+s d3 On r3​
+s d3 Setting r0​
+s d4 On r10​
+​
+s db Setting r10​
+​
+yield​
+​
+j 0
