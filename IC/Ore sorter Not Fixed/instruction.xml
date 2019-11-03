@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131880831494698965</DateTime>
+  <GameVersion>0.2.1833.8470</GameVersion>
+  <Title>Ore sorter Not Fixed</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>s d0 Mode 1​
+Start:​
+ls r0 d0 0 OccupantHash​
+# s db Setting r0​
+bne r0 1758427767 False​
+s d0 Output 1​
+s d0 Mode 0​
+s d0 Mode 1​
+yield​
+j Start2​
+False:​
+s d0 Output 0​
+s d0 Mode 0​
+s d0 Mode 1​
+yield​
+j Start2​
+​
+s d1 Mode 1​
+Start2:​
+ls r0 d1 0 OccupantHash​
+s db Setting r0​
+​
+beq r0 1055173191 True2​
+beq r0 -913649823 True2​
+beq r0 700133157 True2​
+beq r0 -676435305 True2​
+​
+s d1 Output 1​
+s d1 Mode 0​
+s d1 Mode 1​
+yield​
+j Start​
+True2:​
+s d1 Output 0​
+s d1 Mode 0​
+s d1 Mode 1​
+yield​
+j Start</Instructions>
+</InstructionData>
