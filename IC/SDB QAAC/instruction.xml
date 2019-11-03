@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131848019518743195</DateTime>
+  <GameVersion>0.2.1776.8159</GameVersion>
+  <Title>SDB QAAC</Title>
+  <Description>Quick Advanced Airlock Cycling​</Description>
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1546437486</WorkshopFileHandle>
+  <Instructions>​
+s d3 Lock 1​
+s d4 Lock 1​
+​
+l r0 d0 Mode​
+l r1 d0 On​
+​
+l r2 d1 Mode​
+l r3 d1 On​
+​
+s d3 Mode r0​
+s d3 On r1​
+​
+s d4 Mode r2​
+s d4 On r3​
+​
+yield​
+​
+​
+j 0</Instructions>
+</InstructionData>
