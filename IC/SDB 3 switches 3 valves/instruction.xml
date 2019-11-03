@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131853841374537433</DateTime>
+  <GameVersion>0.2.1786.8216</GameVersion>
+  <Title>SDB 3 switches 3 valves</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1551998361</WorkshopFileHandle>
+  <Instructions>alias Switch1 d0​
+alias Switch2 d1​
+alias Switch3 d2​
+​
+alias Valve1 d3​
+alias Valve2 d4​
+alias Valve3 d5​
+​
+start:​
+l r0 d0 Setting​
+l r1 d1 Setting​
+l r2 d2 Setting​
+​
+s d3 On r0​
+s d4 On r1​
+s d5 On r2​
+​
+yield​
+​
+j start</Instructions>
+</InstructionData>
