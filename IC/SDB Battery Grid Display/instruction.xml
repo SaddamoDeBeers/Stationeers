@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131828839908782076</DateTime>
+  <Title>SDB Battery Grid Display</Title>
+  <Description>Basic battery grid display with IC. I am not saying it is the best one. It just works.​</Description>
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1527904237</WorkshopFileHandle>
+  <Instructions># Battery Grid Display with IC​
+​
+start:​
+l r0 d0 Setting​ # Set screw d0 to batch reader​
+​
+s d3 Mode 1​ # Changing LED display mode %​
+​
+s d3 Setting r0​ # sending data to LED display​
+​
+​
+yield​
+j start​
+​
+​
+​
+# You need:​
+# at least 1x Stationary Battery​
+# 1x batch reader​
+# 1x LED display, any size​
+# 1x IC housing​
+# 1x IC chip​
+# computer able to program IC​
+​
+​
+# How to make it work:​
+​
+# Batch reader reads Stationary Battery​
+# ratio and value Average​
+​
+# Set d0 screw to batch reader​
+# Set d3 screw to your Large LED display​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+# Tear after this line, subscribe to my YT channel.</Instructions>
+</InstructionData>
