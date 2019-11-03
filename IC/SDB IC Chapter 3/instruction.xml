@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132167961078506330</DateTime>
+  <GameVersion>0.2.2204.10042</GameVersion>
+  <Title>SDB IC Chapter 3</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1901469919</WorkshopFileHandle>
+  <Instructions>
+alias SensorTemperature r0
+alias KelvinZero r1
+alias CelsiusTemperature r2
+
+alias OxyRatio r10
+
+alias GasSensor d0
+alias LedDisplay d3
+
+start:
+
+move KelvinZero 273.15
+l SensorTemperature GasSensor Temperature
+l OxyRatio GasSensor RatioOxygen
+
+sub CelsiusTemperature SensorTemperature KelvinZero
+
+round CelsiusTemperature CelsiusTemperature
+
+s LedDisplay Mode 0
+s LedDisplay Setting CelsiusTemperature
+
+yield
+yield
+
+s LedDisplay Mode 1
+s LedDisplay Setting OxyRatio
+
+
+yield
+yield
+
+j start</Instructions>
+</InstructionData>
