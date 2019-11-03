@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131833460158088899</DateTime>
+  <Title>Schmitto 001</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>alias BatteryGridRatio r0​
+alias PowerConsumptionPerSecond r3​
+alias PowerEnduranceInSeconds r4​
+alias PowerEnduranceInMinutes r5​
+​
+alias MinPower r7​
+alias MaxPower r8​
+alias PowerPool r9​
+​
+move MinPower 0.30​
+move MaxPower 0.50​
+​
+l BatteryGridRatio d0 Setting​
+​
+l r1 d1 PowerRequired​
+l r2 d1 PowerPotential​
+​
+mul r3 r1 2​
+div r4 r2 r3​
+div r5 r4 60​
+round r5 r5​
+​
+s d3 Mode 1​
+s d3 Setting BatteryGridRatio​
+​
+s d4 Mode 2​
+s d4 Setting r1​
+​
+s d5 Mode 0​
+s d5 Setting PowerEnduranceInMinutes​
+​
+add PowerPool PowerPool 3​
+slt PowerPool BatteryGridRatio rr9​
+​
+s d2 On PowerPool​
+​
+yield​
+yield​
+j 0</Instructions>
+</InstructionData>
