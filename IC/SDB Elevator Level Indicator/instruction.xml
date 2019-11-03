@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131847366753586839</DateTime>
+  <GameVersion>0.2.1776.8159</GameVersion>
+  <Title>SDB Elevator Level Indicator</Title>
+  <Description>​</Description>
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1545907432</WorkshopFileHandle>
+  <Instructions>alias Elevator d0​
+alias Display d3​
+​
+l r0 d0 ElevatorLevel​
+​
+s d3 Setting r0​
+​
+yield​
+​
+j 0</Instructions>
+</InstructionData>
