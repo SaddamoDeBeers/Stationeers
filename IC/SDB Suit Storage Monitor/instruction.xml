@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131847861677772632</DateTime>
+  <GameVersion>0.2.1776.8159</GameVersion>
+  <Title>SDB Suit Storage Monitor</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1546239983</WorkshopFileHandle>
+  <Instructions>​
+ls r0 d0 0 Occupied​
+ls r1 d0 1 Occupied​
+ls r2 d0 2 Occupied​
+​
+s d1 On r1​
+s d2 On r2​
+​
+s d3 Color 2​
+s d3 On r0​
+​
+s d4 Color 2​
+s d4 On r1​
+​
+s d5 Color 2​
+s d5 On r2​
+​
+yield​
+yield​
+j 0</Instructions>
+</InstructionData>
