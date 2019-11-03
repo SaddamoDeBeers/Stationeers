@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132158397584873952</DateTime>
+  <GameVersion>0.2.2193.10006</GameVersion>
+  <Title>SDB IC Class 1</Title>
+  <Description>light switch​</Description>
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1895969748</WorkshopFileHandle>
+  <Instructions>
+alias Switch d0
+alias WallLight d3
+
+alias SwitchValue r0
+
+
+start:
+l SwitchValue d0 Setting
+
+s d3 On SwitchValue
+s d3 Lock 1
+yield
+
+j start</Instructions>
+</InstructionData>
