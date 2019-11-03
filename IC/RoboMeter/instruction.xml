@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132134174485257710</DateTime>
+  <GameVersion>0.2.2169.9898</GameVersion>
+  <Title>RoboMeter</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>alias RoboDistance1 r1
+alias RoboDistance2 r2
+alias RoboDistance3 r3
+
+alias RoboBase1 r6
+alias RoboBase2 r7
+alias RoboBase3 r8
+
+
+start:
+move RoboBase1 71
+move RoboBase2 71
+move RoboBase3 71
+
+l RoboDistance1 d0 PositionX
+l RoboDistance2 d1 PositionX
+l RoboDistance3 d2 PositionX
+
+round RoboDistance1 RoboDistance1
+round RoboDistance2 RoboDistance2
+round RoboDistance3 RoboDistance3
+
+sub RoboDistance1 RoboBase1 RoboDistance1
+sub RoboDistance2 RoboBase2 RoboDistance2
+sub RoboDistance3 RoboBase3 RoboDistance3
+
+
+s d3 Setting RoboDistance1
+s d4 Setting RoboDistance2
+s d5 Setting RoboDistance3
+
+
+yield
+yield
+
+j start</Instructions>
+</InstructionData>
