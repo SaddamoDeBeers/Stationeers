@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131847274151489352</DateTime>
+  <GameVersion>0.2.1776.8159</GameVersion>
+  <Title>SDB Sleeper Utility</Title>
+  <Description>​</Description>
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1545848079</WorkshopFileHandle>
+  <Instructions>​
+ls r0 d0 0 Occupied​
+s d3 On r0​
+#​
+ls r0 d1 0 Occupied​
+s d4 On r0​
+#​
+ls r0 d2 0 Occupied​
+s d5 On r0​
+#​
+yield​
+yield​
+j 0</Instructions>
+</InstructionData>
