@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131848919283836915</DateTime>
+  <GameVersion>0.2.1779.8169</GameVersion>
+  <Title>Fuel Fuel</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>​
+​
+l r0 d0 PowerGeneration​
+l r1 d1 Setting​
+l r2 d2 Setting​
+​
+​
+round r0 r0​
+​
+s d3 Setting r0​
+​
+s d4 Setting r1​
+​
+​
+s d0 On r2​
+​
+​
+yield​
+​
+j 0</Instructions>
+</InstructionData>
