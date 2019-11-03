@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>132070032743641162</DateTime>
+  <GameVersion>0.2.2058.9407</GameVersion>
+  <Title>SDB Trader Console</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1795814142</WorkshopFileHandle>
+  <Instructions>alias DialHorizontal d0​
+alias DialVertical d1​
+​
+alias LedHorizontal d3​
+alias LedVertical d4​
+​
+alias Klaxon d2​
+alias SateliteDish d5​
+​
+start:​
+l r11 d5 SignalStrength​
+​
+l r0 d0 Setting​
+l r1 d1 Setting​
+​
+mul r0 r0 10​
+mul r1 r1 10​
+​
+s d5 Horizontal r0​
+s d5 Vertical r1​
+​
+l r5 d5 Horizontal​
+l r6 d5 Vertical​
+​
+round r5 r5​
+round r6 r6​
+​
+s d3 Setting r5​
+s d4 Setting r6​
+​
+yield​
+​
+j start</Instructions>
+</InstructionData>
