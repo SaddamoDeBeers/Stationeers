@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131830523693765981</DateTime>
+  <Title>SDB Power Grid Display</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>​
+start:​
+l r0 d0 Setting​
+​
+l r1 d1 PowerRequired​
+​
+l r2 d1 PowerPotential​
+​
+​
+mul r3 r1 2​
+​
+div r4 r2 r3​
+​
+div r4 r4 60​
+​
+round r4 r4​
+​
+​
+s d3 Mode 1​
+​
+s d3 Setting r0​
+​
+s d4 Mode 2​
+​
+s d4 Setting r1​
+​
+s d5 Mode 0​
+​
+s d5 Setting r4​
+​
+​
+yield​
+yield​
+j start</Instructions>
+</InstructionData>
