@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131871985992077981</DateTime>
+  <GameVersion>0.2.1818.8399</GameVersion>
+  <Title>SDB Furnace Recipe</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>alias Furnace d0​
+alias FurnaceHashDisplay db​
+alias ReagentQty d1​
+start:​
+l r0 Furnace RecipeHash​
+s FurnaceHashDisplay Setting r0​
+l r1 Furnace Reagents​
+s ReagentQty Setting r1​
+yield​
+j start</Instructions>
+</InstructionData>
