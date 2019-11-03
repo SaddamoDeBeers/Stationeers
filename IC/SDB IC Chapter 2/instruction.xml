@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132162235072573145</DateTime>
+  <GameVersion>0.2.2197.10018</GameVersion>
+  <Title>SDB IC Chapter 2</Title>
+  <Description>Next easy program for beginners interested in learning programming IC.​</Description>
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1895970741</WorkshopFileHandle>
+  <Instructions>
+alias NumberA r0
+alias NumberB r1
+alias NumberC r2
+alias ColorNumber r10
+
+alias DialA d0
+alias DialB d1
+alias DialC d2
+
+alias LedA d3
+alias LedB d4
+alias LedC d5
+
+start:
+
+l NumberA DialA Setting
+l NumberB DialB Setting
+l ColorNumber d2 Setting
+
+add NumberC NumberA NumberB
+
+s LedA Setting NumberA
+s LedB Setting NumberB
+s LedC Setting NumberC
+
+s LedC Color ColorNumber
+
+yield
+
+j start</Instructions>
+</InstructionData>
