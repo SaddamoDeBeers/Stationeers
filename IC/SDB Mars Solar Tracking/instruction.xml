@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131872227683278527</DateTime>
+  <GameVersion>0.2.1819.8415</GameVersion>
+  <Title>SDB Mars Solar Tracking</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1569936558</WorkshopFileHandle>
+  <Instructions>#Set screw labels aliases​
+alias vAngleIn d0​
+alias hAngleIn d1​
+alias vAngleOut d3​
+alias hAngleOut d4​
+#alias vAngle r0​
+#alias hAngle r1​
+#Set sensor to horizontal​
+s d1 Mode 1​
+#Start main calculations​
+Start:​
+l r0 d0 SolarAngle​
+l r1 d1 SolarAngle​
+sub r0 75 r0​
+div r0 r0 1.5​
+s d3 Setting r0​
+s d4 Setting r1​
+yield​
+j Start</Instructions>
+</InstructionData>
