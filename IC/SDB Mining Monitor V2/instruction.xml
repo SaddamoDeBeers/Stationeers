@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132135799511987132</DateTime>
+  <GameVersion>0.2.2170.9903</GameVersion>
+  <Title>SDB Mining Monitor V2</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1869427766</WorkshopFileHandle>
+  <Instructions>alias RoboDistance r1
+alias RoboDepth r2
+alias RoboBase1 r6
+
+#screws
+alias Switch d0
+alias LogicTransmitter d3
+alias LedDistance d4
+alias LedDepth d5
+
+start:
+move RoboBase1 71
+
+l r0 d0 Setting
+l RoboDistance d3 PositionX
+l RoboDepth d3 PositionY
+
+round RoboDistance RoboDistance
+round RoboDepth RoboDepth
+
+sub RoboDistance RoboBase1 RoboDistance
+abs RoboDistance RoboDistance
+
+s d3 On r0
+s d4 Setting RoboDistance
+s d5 Setting RoboDepth
+
+yield
+yield
+
+j start</Instructions>
+</InstructionData>
