@@ -15,8 +15,12 @@ alias LedVertical d4​
 alias Klaxon d2​
 alias SateliteDish d5​
 ​
+s d2 Mode 7
+s d2 Volume 25
+
 start:​
 l r11 d5 SignalStrength​
+mul r11 r11 100
 ​
 l r0 d0 Setting​
 l r1 d1 Setting​
@@ -36,6 +40,9 @@ round r6 r6​
 s d3 Setting r5​
 s d4 Setting r6​
 ​
+sge r10 r11 95
+s d2 Mode r10
+
 yield​
 ​
 j start</Instructions>
