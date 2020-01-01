@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DateTime>131909438501712419</DateTime>
+  <GameVersion>0.2.1864.8567</GameVersion>
+  <Title>SDB Easy Greenhouse Control</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>1612401982</WorkshopFileHandle>
+  <Instructions># Subscribe now!
+# Thank you very much​
+alias GasSensor d0​
+alias WallCooler1 d1​
+alias WallCooler2 d2​
+alias Temp r0​
+alias CoolingMin r1​
+alias CoolingMax r2​
+alias CoolingBool r3​
+
+s d1 Lock 1​
+s d2 Lock 1​
+​
+start:​
+l r0 d0 Temperature​
+Cooling:​
+move r1 298​
+move r2 293​
+add r3 r3 1​
+sgt r3 r0 rr3​
+s d1 On r3​
+s d2 On r3​
+​​
+yield​
+j start</Instructions>
+</InstructionData>
