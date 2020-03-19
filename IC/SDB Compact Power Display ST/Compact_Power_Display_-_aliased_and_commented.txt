@@ -1,0 +1,50 @@
+# set Constants
+
+alias StaBattMain d0  #Stationary batteries
+alias CblAnalMain d1  #Cable Analyzer
+
+alias LEDBattPctRem d3  #LED Batt %
+alias LEDBattPwrReq d4  #LED Batt Pwr Req
+alias LEDBattTimeRem d5 #LED Batt Time Rem Minutes
+
+alias StaBattRatio r0  #Battery Grid Ratio
+alias CablAnalPwrReq r1 #Cable Analyzer Pwr Req
+alias CabAnalPwrPot r2  #Cable Analyzer Pwr Potentia
+alias PwrPerSec r3  #Power req per Sec
+alias PwrResMin r4  #Power reserve Mins
+
+start:
+
+#Read Starting Values
+
+l StaBattRatio StaBattMain Setting #Read Batch Reade
+l CablAnalPwrReq CblAnalMain PowerRequired #Read Ana
+l CabAnalPwrPot CblAnalMain PowerPotential #Read Ana
+
+# Easy Math
+
+mul PwrPerSec CablAnalPwrReq 2 #Pwr Req Per Sec
+div PwrResMin CabAnalPwrPot PwrPerSec # Reserve secs
+div PwrResMin PwrResMin 60 # Reserve minutes
+round PwrResMin PwrResMin # Rounding to nice number
+
+#displaying data
+
+s LEDBattPctRem Mode 1 #Set display to %
+s LEDBattPctRem Setting StaBattRatio #Display data
+s LEDBattPwrReq Mode 2 #Set display to Watts
+s LEDBattPwrReq Setting CablAnalPwrReq # Display dat
+s LEDBattTimeRem Mode 0 #Display raw number
+s LEDBattTimeRem Setting PwrResMin #Display Data
+
+## 1 sec delay
+
+yield
+yield
+
+#Loop
+
+j start
+
+# credits for comments to Shidad
+# thank you very much
