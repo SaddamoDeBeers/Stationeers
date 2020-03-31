@@ -1,0 +1,74 @@
+# simple sorter control
+# - sort and dump output
+# - sorting by hash or class
+# - default is dumping not whitelisted items
+# - set whitelist after jump jWhitelist
+# - set outputs by setting outputs
+# - set sorting dump by occupied output
+# you can find the hashes in eReader or in the wiki
+
+# devices
+alias Sorter d0
+
+# registers
+alias InputOccupied r1
+alias InputHash r2
+alias InputClass r3
+alias SortOutputOccupied r5
+alias SortOutputSlot r6
+alias DumpSortByOccupied r7
+
+# initial settings
+s Sorter On 1
+s Sorter Mode 2 # set to ligic mode
+s Sorter Output -1 # no output
+
+# setting outputs
+# left = 0
+# right = 1
+define SortOutput 0
+define DumpOutput 1
+
+# set 1 for dumping whitelisted by occupied output
+move DumpSortByOccupied 0
+
+# sorting checks (whitelist)
+jChecks:
+yield
+
+# load states
+ls InputOccupied Sorter 0 Occupied
+ls InputHash Sorter 0 PrefabHash
+ls InputClass Sorter 0 Class
+
+# check if an item in input slot
+beqz InputOccupied jChecks
+
+add SortOutputSlot SortOutput 1
+ls SortOutputOccupied Sorter SortOutputSlot Occupied
+
+# dump sort if output not empty
+beqz SortOutputOccupied jWhitelist
+beqz DumpSortByOccupied jWhitelist
+j jDump
+
+# define whitelist
+jWhitelist:
+# sort by hasht
+beq InputHash 1724793494 jSort
+# beq InputHash 1253102035 jSort
+# beq InputHash 1217489948 jSort
+
+# sort by classt
+#beq InputClass 10 jSort
+
+# sort to dump output
+j jDump
+
+# sortings
+jSort:
+s Sorter Output SortOutput
+j jChecks
+jDump:
+s Sorter Output DumpOutput
+j jChecks
