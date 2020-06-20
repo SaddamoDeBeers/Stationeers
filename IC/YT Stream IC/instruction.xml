@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132242911508478415</DateTime>
+  <GameVersion>0.2.2276.10375</GameVersion>
+  <Title>YT Stream IC</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>
+
+start:
+
+l r0 d0 Setting
+l r1 d3 PowerGeneration
+l r2 d1 Setting
+
+#s d3 Lock 1
+s d3 On r0
+
+#s d4 Lock 1
+s d4 On r2
+
+#s d4 On r1
+s d5 Mode 2
+s d5 Setting r1
+
+
+yield
+
+j start</Instructions>
+</InstructionData>
