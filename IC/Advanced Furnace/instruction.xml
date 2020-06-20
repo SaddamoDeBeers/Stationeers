@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132321561493536494</DateTime>
+  <GameVersion>0.2.2367.10715</GameVersion>
+  <Title>Advanced Furnace</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>alias AdvancedFurnaceScrew d0
+alias DialInputScrew d1
+alias DialOutputScre d2
+alias ButtonScrew d3
+
+alias Dial1 r0
+alias Dial2 r1
+
+move r9 10
+
+start:
+
+
+l r0 d1 Setting
+l r1 d2 Setting
+
+l r3 d3 Setting
+
+l r11 d0 RecipeHash
+# s db Setting r12
+s d4 Setting r11
+
+
+mul r5 r0 r9
+mul r6 r1 r9
+
+
+
+
+s d0 SettingInput r5
+s d0 SettingOutput r6
+s d0 Activate r3
+
+
+s d4 Setting r5
+s d5 Setting r6
+
+
+yield
+
+j start</Instructions>
+</InstructionData>
