@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132221117384266490</DateTime>
+  <GameVersion>0.2.2261.10316</GameVersion>
+  <Title>Vampire Robot Mars</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>alias posX r2
+alias posY r3
+alias posZ r4
+alias robot db
+alias mode r0
+s robot Mode RobotMode.None
+
+Initialize:
+s robot Mode RobotMode.Roam
+
+Roaming:
+yield
+l mode robot Mode
+beqz mode Initialize
+beq mode RobotMode.StorageFull Return
+j Roaming
+
+Return:
+l posX robot PositionX
+l posY robot PositionY
+l posZ robot PositionZ
+
+s robot TargetX 49
+s robot TargetY 0
+s robot TargetZ -25
+s robot Mode RobotMode.PathToTarget
+yield
+yield
+yield
+
+Returning:
+yield
+l mode robot Mode
+beqz mode Returned
+j Returning
+
+Returned:
+s robot Mode RobotMode.Unload
+
+Unloading:
+yield
+l mode robot Mode
+beqz mode Leave
+j Unloading
+
+Leave:
+s robot TargetX posX
+s robot TargetY posY
+s robot TargetZ posZ
+s robot Mode RobotMode.PathToTarget
+
+Leaving:
+yield
+l mode robot Mode
+beqz mode Initialize
+j Leaving</Instructions>
+</InstructionData>
