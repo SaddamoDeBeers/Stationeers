@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132222706303828680</DateTime>
+  <GameVersion>0.2.2261.10316</GameVersion>
+  <Title>Heat Exchanger Automated</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions># Subscribe now!
+# Thank you very much
+alias PipeLyzer d0
+alias WallPumpos d3
+alias Temp r0
+alias TankTempMin r1
+alias TankTempMax r2
+alias CoolingBool r3
+
+s d3 Lock 1
+
+start:
+l r0 d0 Temperature
+Pumping:
+move r1 293
+move r2 289
+add r3 r3 1
+sgt r3 r0 rr3
+s d3 On r3
+
+yield
+yield
+j start</Instructions>
+</InstructionData>
