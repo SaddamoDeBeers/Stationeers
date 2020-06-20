@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132321637319192031</DateTime>
+  <GameVersion>0.2.2369.10721</GameVersion>
+  <Title>Advanced Furnace IC 2</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>2072487467</WorkshopFileHandle>
+  <Instructions>alias AdvancedFurnaceScrew d0
+alias Dial3 d1
+alias Lever2 d2
+alias Lever d3
+alias ActiveVentoZ d4
+
+
+start:
+
+Start:
+
+ls r1 d0 0 OccupantHash
+l r0 d3 Setting
+
+l r5 d1 Setting
+l r6 d2 Setting
+
+
+s d0 Open r0
+s db Setting r1
+
+s d4 Mode r5
+s d4 On r6
+
+yield
+
+j start</Instructions>
+</InstructionData>
