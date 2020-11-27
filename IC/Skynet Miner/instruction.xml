@@ -4,7 +4,7 @@
   <GameVersion>0.2.2631.12620</GameVersion>
   <Title>Skynet Miner</Title>
   <Description />
-  <Author>Saddamo De Beers</Author>
+  <Author>Mastasytha and Saddamo De Beers</Author>
   <WorkshopFileHandle>0</WorkshopFileHandle>
   <Instructions>alias posX r0
 alias posY r1
