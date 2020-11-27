@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstructionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DateTime>132509866693262643</DateTime>
+  <GameVersion>0.2.2631.12620</GameVersion>
+  <Title>Skynet Miner</Title>
+  <Description />
+  <Author>Saddamo De Beers</Author>
+  <WorkshopFileHandle>0</WorkshopFileHandle>
+  <Instructions>alias posX r0
+alias posY r1
+alias posZ r2
+alias mode r3
+alias robot db
+define HomeX -23
+define HomeY 0
+define HomeZ -9
+define miningX -8
+define miningY 0
+define miningZ 36
+define BatteryX -23
+define BatteryY 0
+define BatteryZ -9
+define LowBattery 0.15
+alias BatteryPercent r4
+alias Arrived r5
+alias ATargetX r6
+alias ATargetZ r7
+alias ArrivedMinDist r8
+
+s robot Mode RobotMode.None
+Initialize:
+
+MiningLocation:
+jal CheckBattery
+l posX robot PositionX
+l posY robot PositionY
+l posZ robot PositionZ
+s robot TargetX miningX
+move ATargetX miningX
+s robot TargetY miningY
+s robot TargetZ miningZ
+move ATargetZ miningZ
+move ArrivedMinDist 5
+s robot Mode RobotMode.PathToTarget
+yield
+MovingToMiningLocation:
+jal CheckBattery
+l mode robot Mode
+jal CheckArrived
+beqz Arrived MiningLocation
+jal CheckBattery
+beqz mode ArrivedAtMiningLocation
+j MovingToMiningLocation
+ArrivedAtMiningLocation:
+s robot Mode RobotMode.Roam
+Roaming:
+l mode robot Mode
+jal CheckBattery
+beqz mode ArrivedAtMiningLocation
+beq mode RobotMode.StorageFull Return
+j Roaming
+Return:
+l posX robot PositionX
+l posY robot PositionY
+l posZ robot PositionZ
+s robot TargetX HomeX
+move ATargetX HomeX
+s robot TargetY HomeY
+s robot TargetZ HomeZ
+move ATargetZ HomeZ
+move ArrivedMinDist 0.98
+s robot Mode RobotMode.PathToTarget
+Returning:
+l mode robot Mode
+jal CheckArrived
+beqz Arrived Return
+beqz mode Returned
+j Returning
+
+Returned:
+s robot Mode RobotMode.Unload
+Unloading:
+l mode robot Mode
+jal CheckBattery
+beqz mode Initialize
+j Unloading
+CheckBattery:
+ls BatteryPercent robot 0 ChargeRatio
+ble BatteryPercent LowBattery ReturnChargingBay
+j ra
+ReturnChargingBay:
+s robot TargetX BatteryX
+move ATargetX BatteryX
+s robot TargetY BatteryY
+s robot TargetZ BatteryZ
+move ATargetZ BatteryZ
+move ArrivedMinDist 0.98
+s robot Mode RobotMode.PathToTarget
+LowBatteryReturning:
+l mode robot Mode
+jal CheckArrived
+beqz Arrived ReturnChargingBay
+beqz mode LowBatteryReturned
+j LowBatteryReturning
+LowBatteryReturned:
+s robot Mode RobotMode.Unload
+DeadUnloading:
+l mode robot Mode
+beqz mode OFF
+j DeadUnloading
+OFF:
+s robot On 0
+j LowBatteryReturned
+CheckArrived:
+move Arrived 0
+l posX robot PositionX
+l posZ robot PositionZ
+sub posX posX ATargetX
+sub posZ posZ ATargetZ
+mul posX posX posX
+mul posZ posZ posZ
+add posX posX posZ
+sqrt posX posX
+sle posX posX ArrivedMinDist
+move Arrived posX
+push ra
+bgtzal Arrived Mode0
+pop ra
+j ra
+Mode0:
+s robot Mode 0
+yield
+yield
+j ra</Instructions>
+</InstructionData>
